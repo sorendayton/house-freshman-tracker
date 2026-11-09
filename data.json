@@ -46,8 +46,8 @@
    "seat": "New seat (redrawn AL-1; returning former member)",
    "pred": "Barry Moore (R) → Senate run",
    "leg": "U.S. House 2021–25 (AL-1)",
-   "comm": "U.S. House 118th: Appropriations (Ag; FSGG; State-Foreign Ops subcommittees); Natural Resources (Indian & Insular Affairs; Water, Oceans & Wildlife)",
-   "other": "Mobile County Commission 2012–20 (president 2018–20); businessman",
+   "comm": "U.S. House 118th: Appropriations (Ag; FSGG; State-Foreign Ops subcommittees); Natural Resources (Indian & Insular Affairs; Water, Wildlife & Fisheries)",
+   "other": "Mobile County Commission 2012–20 (president 2015–16 and 2019–20); businessman",
    "cau": [
     {
      "c": "Republican Study Committee",
@@ -61,7 +61,7 @@
     }
    ],
    "ident": [],
-   "note": "Returning member, not a true freshman; keeps no seniority."
+   "note": "Returning member, not a true freshman."
   },
   {
    "d": "AZ-1",
@@ -69,12 +69,14 @@
    "bp": "Amish_Shah",
    "wp": "Amish_Shah",
    "n": "Amish Shah",
+   "lt": 2,
+   "lead": "Ranking member, Health & Human Services (2023–24)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent ran for governor (D flip)",
    "pred": "David Schweikert (R)",
    "leg": "Arizona House 2019–24 (Dist. 24, then Dist. 5)",
-   "comm": "2023–24: Appropriations; Health & Human Services. 2021–22: Transportation & Infrastructure; Health & Human Services. 2019–20: Health & Human Services; Regulatory Affairs.",
+   "comm": "2023–24: Appropriations; Health & Human Services (Ranking Member). 2022: Health & Human Services; Ways & Means. 2021: Health & Human Services; Transportation. 2019–20: Health & Human Services; Regulatory Affairs.",
    "other": "Emergency physician (Mayo Clinic); 2024 nominee for this seat",
    "cau": [
     {
@@ -134,7 +136,7 @@
     {
      "c": "Freedom Caucus",
      "lvl": "H",
-     "why": "Freedom Caucus Fund endorsed; succeeding HFC founder Biggs"
+     "why": "Freedom Caucus Fund endorsed; succeeding former HFC chair Biggs"
     },
     {
      "c": "Republican Study Committee",
@@ -165,6 +167,11 @@
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
+    },
+    {
+     "c": "Blue Dog Coalition",
+     "lvl": "H",
+     "why": "Blue Dog PAC endorsed"
     }
    ],
    "ident": [
@@ -186,7 +193,7 @@
    "seat": "Defeated incumbent (D flip; Prop 50 map)",
    "pred": "James Gallagher (R)",
    "leg": "California Senate 2014–26 (Dist. 2); Senate President pro Tempore 2024–25; Majority Leader 2022–24",
-   "comm": "2025–26: Rules (Chair); Fisheries & Aquaculture (Chair). 2023–24: Budget & Fiscal Review; Education; Elections & Constitutional Amendments; Energy, Utilities & Communications; Housing; Transportation; Emergency Management.",
+   "comm": "2026: Joint Fisheries & Aquaculture (Chair); Joint Rules. 2025: Rules (Chair); Joint Fisheries & Aquaculture (Chair); Joint Rules. 2023–24: Budget & Fiscal Review; Education; Elections & Constitutional Amendments; Energy, Utilities & Communications; Housing; Transportation; Emergency Management.",
    "other": "Sonoma County Supervisor; Healdsburg City Council; school board at 19",
    "cau": [
     {
@@ -196,8 +203,8 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "L",
-     "why": "Possible dual membership"
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [],
@@ -237,13 +244,13 @@
    "wp": "Richard_Pan",
    "n": "Richard Pan",
    "lt": 2,
-   "lead": "Chair, Senate Health Committee 2019–22",
+   "lead": "Chair, Senate Health Committee 2018–22",
    "p": "D",
    "st": "Called",
    "seat": "Defeated incumbent (D flip; Prop 50 map)",
    "pred": "Kevin Kiley (I, ex-R)",
    "leg": "California Senate 2014–22 (Dist. 6); California Assembly 2010–14",
-   "comm": "2021–22: Health (Chair); Budget & Fiscal Review; Education; Human Services; Business, Professions & Economic Development; Rules; Legislative Budget; Emergency Management; Arts; Fairs.",
+   "comm": "2021–22: Health (Chair); Budget & Fiscal Review; Education; Human Services; Business, Professions & Economic Development; Joint Rules; Legislative Budget; Emergency Management; Arts; Fairs.",
    "other": "Pediatrician; UC Davis professor; author of SB 277 (vaccine exemptions)",
    "cau": [
     {
@@ -264,13 +271,13 @@
    "wp": "Scott_Wiener",
    "n": "Scott Wiener",
    "lt": 1,
-   "lead": "Assistant Majority Whip; chair, Budget & Fiscal Review and Joint Legislative Budget; chair, Housing 2019–24; chair, Legislative LGBTQ Caucus",
+   "lead": "Former Assistant Majority Whip; chair, Elections & Constitutional Amendments (2026); former chair, Budget & Fiscal Review (2024–25) and Joint Legislative Budget; chair, Housing 2019–24; former chair, Legislative LGBTQ Caucus",
    "p": "D",
    "st": "Called (D-on-D)",
    "seat": "Open — incumbent retired",
    "pred": "Nancy Pelosi (D)",
    "leg": "California Senate 2016– (Dist. 11)",
-   "comm": "2025–26: Budget & Fiscal Review (Chair); Legislative Budget (Chair); Health; Judiciary; Local Government; Public Safety; Rules. 2021–24: Housing (Chair); Appropriations; Governance & Finance.",
+   "comm": "2026: Elections & Constitutional Amendments (Chair); Judiciary; Privacy, Digital Technologies & Consumer Protection; Public Safety; Transportation; Joint Rules; Joint Climate Change Policies. 2025: Budget & Fiscal Review (Chair); Legislative Budget (Chair); Health; Judiciary; Local Government; Public Safety; Joint Rules. 2023–24: Housing (Chair); Appropriations; Governance & Finance. 2021–22: Housing (Chair); Governance & Finance.",
    "other": "San Francisco Board of Supervisors 2011–16; attorney",
    "cau": [
     {
@@ -287,7 +294,7 @@
    "ident": [
     "Congressional Equality Caucus"
    ],
-   "note": "Wikipedia marks him winner; some trackers still list uncalled (leads Connie Chan by ~9 pts at 100%)."
+   "note": "Beat Connie Chan, who conceded Nov. 4."
   },
   {
    "d": "CA-22",
@@ -350,13 +357,13 @@
    "wp": "Jacqui_Irwin",
    "n": "Jacqui Irwin",
    "lt": 2,
-   "lead": "Chair, Climate Change Policies (2025–26); chair, Revenue & Taxation (2023–24); chair, Military & Veterans Affairs (2019–22)",
+   "lead": "Chair, Climate Change Policies (2025–26); chair, Revenue & Taxation (2022–24); chair, Military & Veterans Affairs (2014–21)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent retired",
    "pred": "Julia Brownley (D)",
    "leg": "California Assembly 2014–26 (Dist. 42, formerly 44)",
-   "comm": "2025–26: Climate Change Policies (Chair); Agriculture; Business & Professions; Privacy & Consumer Protection; Rules; Utilities & Energy. 2023–24: Revenue & Taxation (Chair). 2021–22: Military & Veterans Affairs (Chair).",
+   "comm": "2025–26: Climate Change Policies (Chair); Agriculture; Business & Professions; Privacy & Consumer Protection; Rules; Utilities & Energy. 2022–24: Revenue & Taxation (Chair). 2014–21: Military & Veterans Affairs (Chair).",
    "other": "Thousand Oaks mayor (2 terms) and council; systems engineer (Teledyne, JHU)",
    "cau": [
     {
@@ -391,7 +398,7 @@
    "ident": [
     "Congressional Hispanic Caucus"
    ],
-   "note": "One of five DSA members elected."
+   "note": "One of six DSA members elected."
   },
   {
    "d": "CA-38",
@@ -484,7 +491,7 @@
    "pred": "Lauren Boebert (R)",
    "leg": "",
    "comm": "",
-   "other": "U.S. Navy 1990–2024, retired rear admiral; NSC senior policy adviser (Biden)",
+   "other": "U.S. Navy 1990–2024, retired rear admiral; Special Assistant to the President and NSC Senior Director for South Asia (Biden)",
    "cau": [
     {
      "c": "Blue Dog Coalition",
@@ -587,7 +594,7 @@
    "pred": "Neal Dunn (R)",
    "leg": "",
    "comm": "",
-   "other": "Attorney (bio thin on Ballotpedia and Wikipedia)",
+   "other": "Attorney; former general counsel to U.S. Sen. Rick Scott",
    "cau": [
     {
      "c": "Republican Study Committee",
@@ -670,7 +677,7 @@
    "pred": "Vern Buchanan (R)",
    "leg": "",
    "comm": "",
-   "other": "Wife of RNC chair Joe Gruters (reported); bio thin",
+   "other": "Former executive director and vice president of advancement, New College of Florida Foundation; wife of RNC chair Joe Gruters",
    "cau": [
     {
      "c": "Republican Study Committee",
@@ -693,7 +700,7 @@
    "pred": "Byron Donalds (R)",
    "leg": "",
    "comm": "",
-   "other": "Naples business owner",
+   "other": "President, Sun Broadcasting, Fort Myers (radio and TV stations)",
    "cau": [
     {
      "c": "Republican Study Committee",
@@ -972,12 +979,12 @@
    "pred": "Jesús \"Chuy\" García (D)",
    "leg": "",
    "comm": "",
-   "other": "Chief of staff to Rep. García 2023–26; Ph.D. (UIUC)",
+   "other": "Chief of staff to Rep. García 2023–25; Ph.D. (UIUC)",
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
-     "why": "Successor to CPC member; nomination process criticized as hand-picked"
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [
@@ -992,13 +999,13 @@
    "wp": "La_Shawn_Ford",
    "n": "La Shawn Ford",
    "lt": 2,
-   "lead": "Chair, Appropriations–Higher Education 2019–26; vice chair, Restorative Justice & Public Safety",
+   "lead": "Chair, Appropriations–Higher Education 2019–26; vice chair, Restorative Justice (2023–24)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent retired",
    "pred": "Danny Davis (D)",
    "leg": "Illinois House 2007–26 (Dist. 8)",
-   "comm": "2025–26: Appropriations–Higher Education (Chair); Labor & Commerce; Mental Health & Addiction; Gaming; Museums, Arts, Culture & Entertainment. 2023–24: Financial Institutions; Public Utilities; Restorative Justice & Public Safety (Vice Chair).",
+   "comm": "2025–26: Appropriations–Higher Education (Chair); Labor & Commerce; Mental Health & Addiction; Gaming; Museums, Arts, Culture & Entertainment. 2023–24: Appropriations–Higher Education (Chair); Gaming; Insurance; Labor & Commerce; Mental Health & Addiction; Public Utilities; Restorative Justice (Vice Chair).",
    "other": "Chicago public-school teacher; real-estate business; 2019 mayoral candidate",
    "cau": [
     {
@@ -1023,6 +1030,8 @@
    "bp": "Melissa_Bean",
    "wp": "Melissa_Bean",
    "n": "Melissa Bean",
+   "lt": 3,
+   "lead": "Chair, Small Business Subcommittee on Finance and Tax (110th Congress)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent ran for Senate (returning former member)",
@@ -1051,12 +1060,14 @@
    "bp": "Daniel_K._Biss",
    "wp": "Daniel_Biss",
    "n": "Daniel Biss",
+   "lt": 2,
+   "lead": "Chair, Senate Labor (2015–19)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent retired",
    "pred": "Jan Schakowsky (D)",
    "leg": "Illinois Senate 2013–19 (Dist. 9); Illinois House 2011–13",
-   "comm": "Not captured on Ballotpedia for 2013–19 sessions",
+   "comm": "2017: Labor (Chair); Human Services (Vice Chair); Education; Environment & Conservation; Executive Appointments; Revenue. Other sessions not captured.",
    "other": "Mayor of Evanston 2021–26; mathematician (U. Chicago faculty); 2018 gubernatorial candidate",
    "cau": [
     {
@@ -1075,7 +1086,7 @@
    "wp": "J._D._Ford",
    "n": "J.D. Ford",
    "lt": 1,
-   "lead": "Senate Democratic Caucus Whip 2024–26 (Indiana Senate Democrats); ranking minority member on five committees 2019–22",
+   "lead": "Senate Democratic Caucus Whip 2024–26 (Indiana Senate Democrats); ranking minority member on five committees (2021)",
    "p": "D",
    "st": "Called",
    "seat": "Defeated incumbent (D flip)",
@@ -1106,7 +1117,7 @@
    "seat": "Defeated incumbent (D flip)",
    "pred": "Mariannette Miller-Meeks (R)",
    "leg": "Iowa House 2021–23 (Dist. 85)",
-   "comm": "2021–22: Judiciary; State Government; Information Technology.",
+   "comm": "2022: Natural Resources; Veterans Affairs; Agriculture & Natural Resources Appropriations. 2021: Judiciary; State Government; Information Technology.",
    "other": "University of Iowa law professor; environmental engineer; 2022 and 2024 nominee",
    "cau": [
     {
@@ -1125,13 +1136,13 @@
    "wp": "Lindsay_James_(politician)",
    "n": "Lindsay James",
    "lt": 1,
-   "lead": "House Minority Whip; ranking member, Government Oversight (2023–24)",
+   "lead": "Former House Minority Whip; ranking member, Judiciary (2025); ranking member, Government Oversight (2023–24)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent ran for Senate (D flip)",
    "pred": "Ashley Hinson (R)",
-   "leg": "Iowa House 2019–26 (Dist. 71; House Minority Whip)",
-   "comm": "2025–26: Commerce; Environmental Protection; Judiciary; Ways & Means. 2023–24: Government Oversight (Ranking Member); Judiciary; Administration & Rules; Legislative Council.",
+   "leg": "Iowa House 2019–26 (Dist. 71; former House Minority Whip)",
+   "comm": "2026: Environmental Protection. Jan.–Nov. 2025: Commerce; Judiciary (Ranking Member); Ways & Means. 2023–24: Government Oversight (Ranking Member); Judiciary; Administration & Rules; Legislative Council.",
    "other": "Presbyterian pastor; University of Dubuque adjunct",
    "cau": [
     {
@@ -1141,7 +1152,7 @@
     }
    ],
    "ident": [],
-   "note": "Minority whip; ranking member on state Government Oversight."
+   "note": "Former minority whip; former ranking member on state Government Oversight."
   },
   {
    "d": "IA-3",
@@ -1150,14 +1161,14 @@
    "wp": "Sarah_Trone_Garriott",
    "n": "Sarah Trone Garriott",
    "lt": 1,
-   "lead": "Former Senate Minority Whip; ranking member, Health & Human Services (2023–24)",
+   "lead": "Former Senate Minority Whip; ranking member, Health & Human Services (2023–26)",
    "p": "D",
    "st": "Called",
    "seat": "Defeated incumbent (D flip)",
    "pred": "Zach Nunn (R)",
    "leg": "Iowa Senate 2021–26 (Dist. 14, formerly 22; former Minority Whip)",
-   "comm": "2025–26: Education; Commerce; Health & Human Services; Natural Resources & Environment; Health Policy Oversight. 2023–24: HHS (Ranking Member); Rules & Administration.",
-   "other": "Lutheran minister; interfaith chaplain",
+   "comm": "2026: Education; Health & Human Services (Ranking Member); Health Policy Oversight. 2025: also Commerce; Natural Resources & Environment. 2023–24: HHS (Ranking Member); Rules & Administration.",
+   "other": "Lutheran (ELCA) minister; former hospital chaplain; coordinator of interfaith engagement, Des Moines Area Religious Council",
    "cau": [
     {
      "c": "New Democrat Coalition",
@@ -1238,12 +1249,17 @@
    "pred": "Andy Barr (R)",
    "leg": "",
    "comm": "",
-   "other": "Attorney; former prosecutor (reported; bio thin)",
+   "other": "Attorney; former federal prosecutor",
    "cau": [
     {
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
+    },
+    {
+     "c": "Blue Dog Coalition",
+     "lvl": "H",
+     "why": "Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -1260,13 +1276,13 @@
    },
    "n": "Gabe Firment",
    "lt": 2,
-   "lead": "Chair, House Insurance Committee 2025–26",
+   "lead": "Chair, House Insurance Committee 2024–26",
    "p": "R",
    "st": "Runoff Dec 12",
    "seat": "Open — incumbent ran for Senate",
    "pred": "Julia Letlow (R)",
    "leg": "Louisiana House 2020– (Dist. 22)",
-   "comm": "2025–26: Insurance (Chair). 2021–24: Insurance; Retirement; Transportation, Highways & Public Works.",
+   "comm": "2024–26: Insurance (Chair). 2020–23: Insurance; Retirement; Transportation, Highways & Public Works.",
    "other": "Businessman",
    "cau": [
     {
@@ -1310,7 +1326,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Faces Blake Miguez (R; Louisiana Senate 2024–, Dist. 22; Louisiana House 2016–24, House Republican Delegation Chairman 2019–24; committees: Senate & Governmental Affairs (Vice Chair), Finance, Education, Judiciary C, Joint Budget) in the Dec. 12 runoff. Banks led by ~0.3 pts; district is Democratic-leaning."
+   "note": "Faces Blake Miguez (R; Louisiana Senate 2024–, Dist. 22; Louisiana House 2015–24, House Republican Delegation Chairman 2019–24; committees: Senate & Governmental Affairs (Vice Chair), Finance, Education, Judiciary C, Joint Budget) in the Dec. 12 runoff. Banks led by ~0.3 pts; district is Democratic-leaning."
   },
   {
    "d": "ME-2",
@@ -1346,6 +1362,8 @@
    "bp": "Adrian_Boafo",
    "wp": "Adrian_Boafo",
    "n": "Adrian Boafo",
+   "lt": 1,
+   "lead": "Assistant Majority Leader (2024–); chair, Workers' Compensation Subcommittee (2026)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent retired",
@@ -1403,7 +1421,7 @@
    "seat": "Defeated incumbent (D flip)",
    "pred": "Bill Huizenga (R)",
    "leg": "Michigan Senate 2019–26 (Dist. 19, formerly 20); Michigan House 2011–14 (Dist. 60)",
-   "comm": "2025–26: Appropriations (Majority Vice Chair); Energy & Environment (Chair); Finance; Transportation & Infrastructure; Regulatory Reform.",
+   "comm": "2025–26: Appropriations (Majority Vice Chair); Energy & Environment (Chair); Finance, Insurance & Consumer Protection; Regulatory Affairs.",
    "other": "Kalamazoo nonprofit executive",
    "cau": [
     {
@@ -1470,13 +1488,13 @@
    "wp": "Jeremy_Moss",
    "n": "Jeremy Moss",
    "lt": 1,
-   "lead": "Senate President pro tempore 2023–26; chaired Elections and Regulatory Reform; Finance majority vice chair",
+   "lead": "Senate President pro tempore 2023–26; chairs Elections & Ethics and Regulatory Affairs; Finance majority vice chair (2023–24)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent ran for Senate",
    "pred": "Haley Stevens (D)",
    "leg": "Michigan Senate 2019–26 (Dist. 7, formerly 11; President pro tempore); Michigan House 2015–18 (Dist. 35)",
-   "comm": "2025–26: Elections (Chair); Regulatory Reform (Chair); Economic & Small Business Development; Government Operations; Local Government. 2023–24: Finance (Majority Vice Chair); Elections & Ethics (Chair).",
+   "comm": "2025–26: Elections & Ethics (Chair); Regulatory Affairs (Chair); Economic & Community Development; Government Operations; Local Government. 2023–24: Finance (Majority Vice Chair); Elections & Ethics (Chair).",
    "other": "Southfield City Council (elected at 25)",
    "cau": [
     {
@@ -1496,13 +1514,15 @@
    "bp": "Donavan_McKinney",
    "wp": "Donavan_McKinney",
    "n": "Donavan McKinney",
+   "lt": 3,
+   "lead": "Majority vice chair, Appropriations subcommittees on Corrections and on Environment, Great Lakes & Energy (2023–24); minority vice chair, LARA and Insurance & Financial Services Subcommittee (2025)",
    "p": "D",
    "st": "Called",
    "seat": "Defeated incumbent in primary (D hold)",
    "pred": "Shri Thanedar (D)",
    "leg": "Michigan House 2023–26 (Dist. 11)",
    "comm": "2023–26: Appropriations.",
-   "other": "SEIU Healthcare Michigan political director; Climate Power",
+   "other": "SEIU political and coalition work; national political director, Climate Power",
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
@@ -1565,6 +1585,11 @@
      "c": "New Democrat Coalition",
      "lvl": "M",
      "why": "Craig's seat; not on NewDem list"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [],
@@ -1639,13 +1664,18 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC; rural western seat"
+     "lvl": "H",
+     "why": "Blue Dog PAC endorsed"
     },
     {
      "c": "Congressional Labor Caucus",
      "lvl": "H",
      "why": "Union leader"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [],
@@ -1689,7 +1719,7 @@
    "seat": "Open — incumbent retired (D flip)",
    "pred": "Mark Amodei (R)",
    "leg": "Nevada Assembly 2010–22 (Dist. 27; Majority Leader 2016–22)",
-   "comm": "2021–22: Ways & Means; Revenue (Vice Chair); Health & Human Services. 2019–20: Ways & Means (Vice Chair); Revenue.",
+   "comm": "2021–22: Ways & Means; Revenue (Vice Chair); Health & Human Services. 2019–20: Ways & Means (Vice Chair); Taxation; Ways & Means Audit Subcommittee (Chair).",
    "other": "Hospice and adoption social worker; Miss Nevada 2002",
    "cau": [
     {
@@ -1864,7 +1894,12 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "M",
-     "why": "Bloomberg/Hochul operative; no caucus endorsement found"
+     "why": "Bloomberg/Hochul operative; no NewDem endorsement found"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [],
@@ -1958,6 +1993,8 @@
     "url": "https://er.ncsbe.gov/?election_dt=11/03/2026&county_id=0&office=FED&contest=0"
    },
    "n": "Raymond Smith Jr.",
+   "lt": 1,
+   "lead": "One of three House Democratic minority whips (2021–22)",
    "p": "D",
    "st": "Uncalled — trails",
    "seat": "Challenging incumbent Greg Murphy (R)",
@@ -2131,8 +2168,8 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC; rural seat"
+     "lvl": "H",
+     "why": "Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -2209,6 +2246,11 @@
      "c": "Blue Dog Coalition",
      "lvl": "L",
      "why": "Working-class profile; no endorsement found"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [],
@@ -2237,7 +2279,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Beat the former HASC and Intelligence chair."
+   "note": "Beat the former House Intelligence chair."
   },
   {
    "d": "OH-15",
@@ -2275,7 +2317,7 @@
    "seat": "Open — incumbent ran for Senate",
    "pred": "Kevin Hern (R)",
    "leg": "Oklahoma House 2022–26 (Dist. 69)",
-   "comm": "2025–26: Commerce & Economic Development Oversight (Vice Chair). 2023–24: Insurance (Vice Chair); Business & Commerce; Common Education.",
+   "comm": "2025–26: Commerce & Economic Development Oversight (Vice Chair); Insurance; Common Education; Appropriations & Budget Education; Energy; Legislative Office of Fiscal Transparency. 2023–24: Insurance (Vice Chair); Business & Commerce; Common Education.",
    "other": "Insurance agent",
    "cau": [
     {
@@ -2333,7 +2375,7 @@
    "seat": "Open — incumbent retired",
    "pred": "Dwight Evans (D)",
    "leg": "Pennsylvania House 2017–26 (Dist. 200)",
-   "comm": "2023–24: Agriculture & Rural Affairs; Commerce (Subcommittee Chair, Local Business); Finance (Subcommittee Chair, Tax Modernization & Reform); Judiciary.",
+   "comm": "2025–26: Agriculture & Rural Affairs; Commerce (Subcommittee Chair, Local Business); Finance (Subcommittee Chair, Tax Modernization & Reform); Judiciary.",
    "other": "Aide to Sen. Carol Moseley Braun; Clinton White House Conference on Small Business",
    "cau": [
     {
@@ -2368,7 +2410,7 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
+     "lvl": "H",
      "why": "CPC PAC also endorsed — rare dual endorsement"
     },
     {
@@ -2472,7 +2514,7 @@
    "pred": "Joe Wilson (R)",
    "leg": "",
    "comm": "",
-   "other": "U.S. Air Force 2020–25; law graduate (2026)",
+   "other": "Air Force veteran; attorney",
    "cau": [],
    "ident": [
     "Veterans caucuses"
@@ -2486,13 +2528,13 @@
    "wp": "Wes_Climer",
    "n": "Wes Climer",
    "lt": 2,
-   "lead": "Chair, Agriculture & Natural Resources 2021–22 and 2025–26",
+   "lead": "Chair, Agriculture & Natural Resources 2021–26",
    "p": "R",
    "st": "Called",
    "seat": "Open — incumbent ran for governor",
    "pred": "Ralph Norman (R)",
    "leg": "South Carolina Senate 2016–26 (Dist. 15, York)",
-   "comm": "2025–26: Agriculture & Natural Resources (Chair); Finance; Labor, Commerce & Industry; Transportation; Family & Veterans' Services. 2023–24 also Judiciary; Legislative Oversight.",
+   "comm": "2025–26: Agriculture & Natural Resources (Chair); Family & Veterans' Services; Finance; Labor, Commerce & Industry; Legislative Oversight; Transportation. 2023–24: Agriculture & Natural Resources (Chair); Family & Veterans' Services; Judiciary; Labor, Commerce & Industry; Legislative Oversight; Transportation.",
    "other": "Resigned state Senate effective Nov. 3, 2026",
    "cau": [
     {
@@ -2600,13 +2642,13 @@
    "wp": "Johnny_Garrett_(politician)",
    "n": "Johnny Garrett",
    "lt": 1,
-   "lead": "House Majority Whip 2023–26 (WVLT; TN House GOP); Judiciary vice chair 2019–20",
+   "lead": "House Majority Whip 2020–26 (WVLT; TN House GOP); Judiciary vice chair 2019–20",
    "p": "R",
    "st": "Called",
    "seat": "Open — incumbent ran for governor",
    "pred": "John Rose (R)",
-   "leg": "Tennessee House 2018–26 (Dist. 45; House Majority Whip)",
-   "comm": "2023–24: Civil Justice; Commerce; Finance, Ways & Means. 2019–20: Judiciary (Vice Chair); Insurance & Banking.",
+   "leg": "Tennessee House 2018–26 (Dist. 45; former House Majority Whip)",
+   "comm": "2023–24: Civil Justice; Commerce; Finance, Ways & Means. 2019–20: Judiciary (Vice Chair); Insurance.",
    "other": "Attorney",
    "cau": [
     {
@@ -2616,7 +2658,7 @@
     }
    ],
    "ident": [],
-   "note": "State House majority whip."
+   "note": "Former state House majority whip."
   },
   {
    "d": "TN-9",
@@ -2625,13 +2667,13 @@
    "wp": "Brent_Taylor_(Tennessee_politician)",
    "n": "Brent Taylor",
    "lt": 3,
-   "lead": "2nd vice chair, Transportation & Safety (2023–24)",
+   "lead": "Vice chair, Commerce & Labor; 2nd vice chair, Transportation & Safety",
    "p": "R",
    "st": "Called",
    "seat": "Open — incumbent retired (R flip via redistricting)",
    "pred": "Steve Cohen (D)",
    "leg": "Tennessee Senate 2023–26 (Dist. 31)",
-   "comm": "2023–24: Government Operations; Judiciary; Transportation & Safety (2nd Vice Chair).",
+   "comm": "2025–26: Commerce & Labor (Vice Chair); Judiciary; Transportation & Safety (2nd Vice Chair). 2023–24: Government Operations; Judiciary; Transportation & Safety (2nd Vice Chair).",
    "other": "Memphis City Council 1995–2007; funeral director",
    "cau": [
     {
@@ -2655,19 +2697,19 @@
    "wp": "Steve_Toth",
    "n": "Steve Toth",
    "lt": 3,
-   "lead": "Vice chair, Calendars (2021–22); Texas Freedom Caucus member",
+   "lead": "Vice chair, Resolutions Calendars (2021–22); former Texas Freedom Caucus member",
    "p": "R",
    "st": "Called",
    "seat": "Open — incumbent lost primary",
    "pred": "Dan Crenshaw (R)",
    "leg": "Texas House 2019–26 and 2013–15 (Dist. 15)",
-   "comm": "2023–24: Appropriations; Corrections. 2021–22: Appropriations; Agriculture & Livestock; Calendars (Vice Chair).",
-   "other": "Pool-company owner; pastor; Texas Freedom Caucus member",
+   "comm": "2025–26: Elections; Environmental Regulation. 2023–24: Appropriations; Corrections. 2021–22: Appropriations; Agriculture & Livestock; Resolutions Calendars (Vice Chair).",
+   "other": "Pool-company owner; pastor; former Texas Freedom Caucus member",
    "cau": [
     {
      "c": "Freedom Caucus",
      "lvl": "H",
-     "why": "Freedom Caucus Fund endorsed; Texas Freedom Caucus member"
+     "why": "Freedom Caucus Fund endorsed; former Texas Freedom Caucus member"
     }
    ],
    "ident": [],
@@ -2872,7 +2914,7 @@
     {
      "c": "Freedom Caucus",
      "lvl": "L",
-     "why": "Brother was not HFC"
+     "why": "Brother was an HFC member until resigning in 2024"
     }
    ],
    "ident": [
@@ -2903,7 +2945,12 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "M",
-     "why": "Border swing seat; no endorsement found"
+     "why": "Border swing seat; no NewDem endorsement found"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [
@@ -2967,6 +3014,8 @@
    "bp": "Colin_Allred",
    "wp": "Colin_Allred",
    "n": "Colin Allred",
+   "lt": 3,
+   "lead": "Vice chair, Railroads, Pipelines & Hazardous Materials Subcommittee (116th Congress)",
    "p": "D",
    "st": "Called",
    "seat": "Open — incumbent moved districts (returning former member)",
@@ -3057,7 +3106,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Former Blue Dog co-chair"
+     "why": "Prior Blue Dog member; co-chaired a Blue Dog task force"
     },
     {
      "c": "New Democrat Coalition",
@@ -3102,7 +3151,7 @@
    "bp": "Elaine_Luria",
    "wp": "Elaine_Luria",
    "n": "Elaine Luria",
-   "lt": 2,
+   "lt": 3,
    "lead": "Vice chair, House Armed Services (117th Congress)",
    "p": "D",
    "st": "Called",
@@ -3208,7 +3257,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat the House Administration chairman — the committee that handles House rules and operations."
+   "note": "Beat the House Administration chairman — the committee that handles House operations and federal elections."
   },
   {
    "d": "WI-3",
@@ -3231,8 +3280,8 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC in 2026 (verify 2024 endorsement)"
+     "lvl": "H",
+     "why": "Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -3277,7 +3326,7 @@
    "seat": "Open — incumbent ran for Senate",
    "pred": "Harriet Hageman (R)",
    "leg": "Wyoming House 2017–23 (Dist. 57)",
-   "comm": "2021–22: Revenue; Minerals, Business & Economic Development; Rules & Procedure; Management Council; Management Audit. 2019–20: Judiciary; Joint Judiciary.",
+   "comm": "2021–22: Revenue; Minerals, Business & Economic Development; Rules & Procedure; Management Council; Management Audit. 2019–20: Judiciary; Management Audit.",
    "other": "Wyoming Secretary of State 2023–26; radio executive",
    "cau": [
     {
@@ -3301,19 +3350,19 @@
    "wp": "Robert_White_(Washington,_D.C.,_politician)",
    "n": "Robert White",
    "lt": 2,
-   "lead": "Chair, D.C. Council Committee on Housing 2023– (Bisnow; DC Council)",
+   "lead": "Chair, D.C. Council Committee on Housing 2023–26 (Bisnow; DC Council)",
    "p": "D",
    "st": "Called (delegate)",
    "seat": "Open — incumbent retired (nonvoting delegate)",
    "pred": "Eleanor Holmes Norton (D)",
-   "leg": "D.C. Council, at-large 2017–26",
+   "leg": "D.C. Council, at-large 2016–26",
    "comm": "Not captured",
    "other": "Former Norton staffer; 2022 mayoral candidate",
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
-     "why": "D.C. progressive; Norton was CPC"
+     "lvl": "H",
+     "why": "CPC PAC endorsed"
     }
    ],
    "ident": [
