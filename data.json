@@ -1,14 +1,22 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-07",
+  "status_as_of": "2026-11-09",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 123
+  "row_count": 124
  },
  "changelog": [
+  {
+   "d": "2026-11-09",
+   "t": "Added a Confirmed level (C) above the predicted levels H, M and L. C means the caucus or the member has publicly named someone as a member or incoming member; each confirmed tag keeps the level it was predicted at. First confirmations: CAPAC for Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect Alicia Limtiaco (D), who unseated James Moylan; the original sweep covered delegate seats that opened but not one that changed hands."
+  },
+  {
+   "d": "2026-11-09",
+   "t": "Weekly caucus update. Blue Dog: the Blue Dog PAC's list of backed winners raised Mendoza (AZ-6) and Dembo (KY-6) to new High tags and Ager, Cooke and Forstag to High. Progressive Caucus: CPC PAC endorsements raised nine members to High (Forstag, Padilla Stout, Brooks, García, McGuire, White, Little, Lasher, Poindexter). Poindexter's Blue Dog tag stays Low because sources conflict. CAPAC's 11/04 release is noted on four rows. Caucus-level announcements added to the method section."
+  },
   {
    "d": "2026-11-08",
    "t": "Added two Democratic challengers the original sweep missed because their uncalled races had incumbent leaders: Tessa Lynn Hodge (CA-23, trails Obernolte by 2.8 pts) and Nicole Locklin (FL-26, trails Díaz-Balart by 0.7 pts). Both fall inside the page's 3-point rule for trailers. A full check of every uncalled race found no other omissions."
@@ -78,14 +86,18 @@
    "other": "Emergency physician (Mayo Clinic); 2024 nominee for this seat",
    "cau": [
     {
+     "c": "CAPAC",
+     "lvl": "C",
+     "was": "I",
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+    },
+    {
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
     }
    ],
-   "ident": [
-    "CAPAC (South Asian American)"
-   ],
+   "ident": [],
    "note": ""
   },
   {
@@ -165,6 +177,11 @@
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
+    },
+    {
+     "c": "Blue Dog Coalition",
+     "lvl": "H",
+     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [
@@ -196,8 +213,8 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "L",
-     "why": "Possible dual membership"
+     "lvl": "H",
+     "why": "CPC PAC endorsed (06/29)"
     }
    ],
    "ident": [],
@@ -247,14 +264,18 @@
    "other": "Pediatrician; UC Davis professor; author of SB 277 (vaccine exemptions)",
    "cau": [
     {
+     "c": "CAPAC",
+     "lvl": "C",
+     "was": "I",
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+    },
+    {
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
     }
    ],
-   "ident": [
-    "CAPAC"
-   ],
+   "ident": [],
    "note": ""
   },
   {
@@ -724,14 +745,18 @@
    "other": "High-school principal; White House Fellow; Apple public-sector lead",
    "cau": [
     {
+     "c": "CAPAC",
+     "lvl": "C",
+     "was": "I",
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+    },
+    {
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
     }
    ],
-   "ident": [
-    "CAPAC (South Asian American)"
-   ],
+   "ident": [],
    "note": ""
   },
   {
@@ -936,6 +961,30 @@
    "note": ""
   },
   {
+   "d": "GU-AL",
+   "race": "Guam's_At-large_Congressional_District_election,_2026",
+   "bp": "Alicia_Limtiaco",
+   "wp": "Alicia_Limtiaco",
+   "n": "Alicia Limtiaco",
+   "p": "D",
+   "st": "Called (delegate)",
+   "seat": "Defeated incumbent James Moylan (R) (nonvoting delegate; D flip)",
+   "pred": "James Moylan (R)",
+   "leg": "",
+   "comm": "",
+   "other": "U.S. Attorney for the Districts of Guam and the Northern Mariana Islands 2010–17; Attorney General of Guam 2007–10; independent until 2017, Democrat since; full name Alicia Garrido Limtiaco",
+   "cau": [
+    {
+     "c": "CAPAC",
+     "lvl": "C",
+     "was": "I",
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+    }
+   ],
+   "ident": [],
+   "note": "Won 51.0–48.8 (15,645–14,983, +662) per Ballotpedia; results not yet certified. First CHamoru woman elected as Guam's delegate (CAPAC). Nonvoting delegate. No ideological-caucus signal found."
+  },
+  {
    "d": "IL-2",
    "race": "Illinois'_2nd_Congressional_District_election,_2026",
    "bp": "Donna_Miller_(Illinois)",
@@ -976,8 +1025,8 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
-     "why": "Successor to CPC member; nomination process criticized as hand-picked"
+     "lvl": "H",
+     "why": "CPC PAC endorsed (05/12); successor to a CPC member"
     }
    ],
    "ident": [
@@ -1244,6 +1293,11 @@
      "c": "New Democrat Coalition",
      "lvl": "H",
      "why": "NewDem Action Fund endorsed"
+    },
+    {
+     "c": "Blue Dog Coalition",
+     "lvl": "H",
+     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04); PAC endorsement page for Dembo"
     }
    ],
    "ident": [],
@@ -1380,14 +1434,18 @@
    "other": "Deputy director, White House Intergovernmental Affairs (Biden); Labor Dept. chief of staff; chief of staff to Boston Mayor Walsh",
    "cau": [
     {
+     "c": "CAPAC",
+     "lvl": "C",
+     "was": "I",
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+    },
+    {
      "c": "New Democrat Coalition",
      "lvl": "M",
      "why": "Executive-branch pragmatist; no caucus endorsement found"
     }
    ],
-   "ident": [
-    "CAPAC"
-   ],
+   "ident": [],
    "note": "First Asian American member from Massachusetts."
   },
   {
@@ -1565,6 +1623,11 @@
      "c": "New Democrat Coalition",
      "lvl": "M",
      "why": "Craig's seat; not on NewDem list"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed (06/30)"
     }
    ],
    "ident": [],
@@ -1639,13 +1702,18 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC; rural western seat"
+     "lvl": "H",
+     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     },
     {
      "c": "Congressional Labor Caucus",
      "lvl": "H",
      "why": "Union leader"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed (02/26); a dual Blue Dog and CPC endorsement"
     }
    ],
    "ident": [],
@@ -1865,6 +1933,11 @@
      "c": "New Democrat Coalition",
      "lvl": "M",
      "why": "Bloomberg/Hochul operative; no caucus endorsement found"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed (07/30)"
     }
    ],
    "ident": [],
@@ -2131,8 +2204,8 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC; rural seat"
+     "lvl": "H",
+     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [],
@@ -2208,11 +2281,16 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "L",
-     "why": "Working-class profile; no endorsement found"
+     "why": "Conflicting signals: the Denver Gazette (11/05) lists him, under its Blue Dog heading, among candidates \"endorsed by the caucus\" who are set to join, but he is absent from the Blue Dog PAC's own list of backed winners. Left at Low until the caucus or the member confirms."
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed (04/28)"
     }
    ],
    "ident": [],
-   "note": "Ideological caucus unclear."
+   "note": "CPC PAC-endorsed; Blue Dog status disputed (see caucus basis)."
   },
   {
    "d": "OH-10",
@@ -2368,8 +2446,8 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
-     "why": "CPC PAC also endorsed — rare dual endorsement"
+     "lvl": "H",
+     "why": "CPC PAC endorsed (12/18/2025); a dual Blue Dog and CPC endorsement"
     },
     {
      "c": "Congressional Labor Caucus",
@@ -2904,6 +2982,11 @@
      "c": "New Democrat Coalition",
      "lvl": "M",
      "why": "Border swing seat; no endorsement found"
+    },
+    {
+     "c": "Congressional Progressive Caucus",
+     "lvl": "H",
+     "why": "CPC PAC endorsed (10/16)"
     }
    ],
    "ident": [
@@ -3231,8 +3314,8 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "M",
-     "why": "Profiled by Blue Dog PAC in 2026 (verify 2024 endorsement)"
+     "lvl": "H",
+     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [],
@@ -3312,8 +3395,8 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "M",
-     "why": "D.C. progressive; Norton was CPC"
+     "lvl": "H",
+     "why": "CPC PAC endorsed (05/05)"
     }
    ],
    "ident": [
