@@ -1,0 +1,115 @@
+# Settings for scripts/check.py. Nothing here changes the page.
+
+issue_title: "Tracker differs from its sources"
+user_agent: "house-freshman-tracker-check"
+fetch_timeout: 60
+
+# Fields every row must have, and the values some of them may take.
+required_fields: [d, n, p, st, seat, pred, leg, comm, other, cau, ident, note]
+district_pattern: '^[A-Z]{2}-(\d+|AL)$'
+parties: [D, R]
+statuses: ["Called", "Called (D-on-D)", "Called (delegate)", "Uncalled — leads", "Uncalled — trails"]
+# Which of those the race-results check expects.
+called_prefix: "Called"
+delegate_called: "Called (delegate)"
+leads: "Uncalled — leads"
+trails: "Uncalled — trails"
+# Runoff rows are checked by hand; any status starting with this is allowed.
+runoff_status_prefix: "Runoff"
+levels: [H, M, L]
+tiers: [1, 2, 3]
+
+# Race results. NBC's page carries every House race as JSON.
+results:
+  label: NBC
+  timezone: "America/New_York"
+  timezone_label: "ET"
+  url: "https://www.nbcnews.com/politics/2026-elections/house-results"
+  expected_races: 435
+  # Stop rather than report nonsense if the page format changes.
+  minimum_called: 300
+  called_code: "P"
+  at_large_states: [AK, DE, ND, SD, VT, WY]
+  party_labels: {D: Dem, R: Rep}
+  name_suffixes: ["Jr.", "III"]
+
+# NBC doesn't cover delegates, so they come from this Wikipedia table.
+delegates:
+  api: "https://en.wikipedia.org/w/api.php"
+  page: "2026_United_States_House_of_Representatives_elections"
+  section_anchor: "Non-voting_delegates"
+  districts:
+    American Samoa: AS-AL
+    District of Columbia: DC-AL
+    Guam: GU-AL
+    Northern Mariana Islands: MP-AL
+    U.S. Virgin Islands: VI-AL
+
+# Each list is read from the page text between start and end.
+# pattern must capture name and district. caucus must match the name used in data.js.
+# link, if given, is what reports show instead of url.
+# level is the lowest confidence level an endorsement supports.
+endorsements:
+  - source: NewDem Action Fund
+    caucus: New Democrat Coalition
+    level: H
+    url: "https://www.newdemactionfund.com/candidates"
+    start: "real solutions in Congress."
+    end: "Races to Watch"
+    pattern: '(?P<name>[A-Z][^ ]*(?: [^ ]+?)*?) (?P<district>[A-Za-z]{2}-(?:\d\d|AL))'
+    minimum: 40
+  - source: Blue Dog PAC
+    caucus: Blue Dog Coalition
+    level: H
+    url: "https://bluedogdems.com/"
+    start: "Meet Our 2026 candidates"
+    end: "Chip In"
+    pattern: '(?P<name>[A-Z][^ ]*(?: [^ ]+?)*?) (?P<district>[A-Za-z]{2}-(?:\d\d|AL))'
+    minimum: 15
+  - source: Main Street PAC
+    caucus: Main Street Caucus
+    level: H
+    url: "https://www.mainstreetrepublicanpac.com/candidates"
+    start: "businesses."
+    end: "About Members"
+    pattern: '(?P<name>[A-Z][^ ]*(?: [^ ]+?)*?) (?P<district>[A-Za-z]{2}-(?:\d\d|AL))'
+    minimum: 10
+  - source: Freedom Caucus Fund
+    caucus: Freedom Caucus
+    level: H
+    url: "https://freedomcaucusfund.com/endorsements/"
+    start: "Endorsements"
+    end: "Shopping Cart"
+    pattern: 'Endorses (?P<name>(?:(?!Endorses).)+?) for (?P<district>[A-Z]{2}-(?:\d\d|AL))'
+    minimum: 20
+  - source: CPC PAC
+    caucus: Congressional Progressive Caucus
+    level: H
+    url: "https://weareprogressives.org/wp-json/wp/v2/posts?per_page=100&search=endorses&after=2025-01-01T00:00:00&_fields=title"
+    # Shown in reports instead of url, which is a data feed.
+    link: "https://weareprogressives.org/"
+    start: ""
+    end: ""
+    pattern: 'Endorses (?P<name>(?:(?!Endorses)[^"])+?) [Ff]or (?P<district>[A-Z]{2}-\d\d|DC Delegate)'
+    minimum: 15
+  # An allied group, not the caucus's own PAC, so M is enough.
+  - source: Justice Democrats
+    caucus: Congressional Progressive Caucus
+    level: M
+    url: "https://justicedemocrats.com/candidates/"
+    start: "All Candidates"
+    end: "Contact Privacy"
+    pattern: '(?P<name>[A-Z][^ ]*(?: [^ ]+?)*?) (?P<district>[A-Z]{2}-\d{1,2}) Website'
+    minimum: 8
+
+# Endorsement lists that don't use the usual district format.
+district_aliases:
+  "DC DELEGATE": DC-AL
+
+# Differences you've looked at and decided to keep. They stop being reported.
+# Each needs the district, the check name shown in the report, and a reason.
+# Example:
+#   - district: TN-4
+#     check: status
+#     reason: "Counting AP's call, not NBC's"
+known_differences: []
