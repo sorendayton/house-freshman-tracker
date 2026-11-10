@@ -123,6 +123,8 @@ tr.row{cursor:pointer}
 tr.row:hover td{background:color-mix(in srgb,var(--panel) 85%,var(--line-soft))}
 tr.row.open td{border-bottom:none}
 td.dist{font-family:var(--mono);font-size:13px;white-space:nowrap}
+td.dist .pvi{display:block;font-size:11px;margin-top:2px;color:var(--muted)}
+td.dist .pvi.R{color:var(--rep)} td.dist .pvi.D{color:var(--dem)}
 td.name{font-weight:600;white-space:nowrap}
 td.name .ret{display:block;font-weight:400;font-size:11px;color:var(--muted)}
 td.name .anchor{margin-left:6px;color:var(--muted);text-decoration:none;font-weight:400;opacity:0;font-family:var(--mono);font-size:12px}
@@ -181,6 +183,7 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
   <label>Party<select id="f-party"><option value="">All</option><option value="D">Democrats</option><option value="R">Republicans</option></select></label>
   <label>Status<select id="f-status"><option value="">All</option><option value="called">Called</option><option value="leads">Uncalled, leading</option><option value="trails">Uncalled, trailing</option><option value="runoff">Runoff (Dec 12)</option><option value="live">Called or leading</option></select></label>
   <label>Legislative service<select id="f-leg"><option value="">All</option><option value="state">State / territorial legislature</option><option value="house">Prior U.S. House</option><option value="any">Any legislature</option><option value="lead1">Chamber or caucus leadership</option><option value="lead">Any leadership role (incl. committee chairs)</option><option value="none">None</option></select></label>
+  <label>Seat lean (PVI)<select id="f-pvi"><option value="">All</option><option value="dem">Democratic-leaning or even</option><option value="r14">R+1 to R+4</option><option value="r59">R+5 to R+9</option><option value="r10">R+10 or redder</option><option value="rany">Any Republican lean</option></select></label>
   <label>Caucus<select id="f-cau"><option value="">All</option></select></label>
   <label>Search<input id="f-q" type="search" placeholder="name, district, state, committee, note"></label>
   <button id="f-reset" type="button">Reset</button>
@@ -230,6 +233,7 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
     <li><strong>Timing.</strong> Freshmen typically announce caucus memberships in December and January. As of the status date, the only confirmations are CAPAC's, from its 2026-11-04 release naming five incoming members.</li>
   </ul>
   <p><strong>Known gaps.</strong> Bios are thin for several open-seat Republicans in Florida and Texas (Rogers, Strada, Gruters, Schwartzel, Bonck) and for Dembo (KY-6). Vote margins in uncalled races come from state election boards and the local reporting cited in each row, refreshed between 11/07 and 11/10; none of the eleven has been called by AP. Recounts are requested or under way in MN-1 (Johnson +321; certification 11/19), FL-27 (Rodriguez −1,090; machine recount began 11/09) and SC-2 (Khalifa −0.99 pts); NC-5 (Hubbard +99), NC-3 (Smith −233) and NC-7 (Hardy −0.76 pts) are inside North Carolina's 1% threshold ahead of the 11/13 canvass; FL-7 (Elijah +0.505 pts) sits just outside Florida's. CA-4, CA-23 and WA-5 are still counting. CO-4 is marked Called on CNN's projection, with AP pending.</p>
+  <p><strong>Seat lean.</strong> Each district shows its Cook Partisan Voting Index as listed in Wikipedia's 2026 House results tables (mid-decade redistricting means several states use new lines). On those figures, only 211 of the 435 seats are even or Democratic-leaning, and Democrats hold all 211; no Republican holds a seat bluer than R+4. A House majority therefore requires at least 7 Republican-leaning seats. As of the status date, 48 Democrats hold Republican-leaning seats, and 37 of them are freshmen; of the 25 Democrats in R+5 or redder seats, 21 are freshmen. Only 3 of the 21 Democratic freshmen in seats Trump carried by 10 points or more in 2024 have served in a state legislature (Ford, Benitez-Thompson, Ojeda), against 25 of the other 57 Democratic freshmen.</p>
   <p><strong>Per-member links.</strong> Each detail row links to the race on Ballotpedia and to the member on Ballotpedia and Wikipedia. Member links are taken from each race's own candidate listing, not built from the name, so they point at the right person; six members with no Wikipedia article have no Wikipedia link. Uncalled races and the Louisiana runoffs also link to the official state count, which is the number to trust over anything here.</p>
   <p><strong>Primary sources.</strong> <span class="srcs"><a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections">Wikipedia 2026 House elections</a> · <a href="https://ballotpedia.org/United_States_House_of_Representatives_elections,_2026">Ballotpedia 2026 House</a> · <a href="https://www.newdemactionfund.com/candidates">NewDem Action Fund candidates</a> · <a href="https://bluedogdems.com/news/">Blue Dog PAC</a> · <a href="https://freedomcaucusfund.com/endorsements/">Freedom Caucus Fund</a> · <a href="https://www.mainstreetrepublicanpac.com/candidates">Main Street Republican PAC</a> · <a href="https://www.fec.gov/data/committee/C00433060/">RGG/Tuesday Group PAC (FEC)</a> · <a href="https://ballotpedia.org/Endorsements_by_Congressional_Progressive_Caucus_PAC">CPC PAC (Ballotpedia)</a> · <a href="https://ballotpedia.org/Endorsements_by_Justice_Democrats_PAC">Justice Democrats (Ballotpedia)</a> · <a href="https://rollcall.com/2026/11/04/history-makers-congress-house-senate-governor/">Roll Call, history-makers</a> · <a href="https://www.cbsnews.com/live-updates/house-election-results-2026/">CBS News results</a></span></p>
 </section>
@@ -251,12 +255,14 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
   const stKey=s=>/^Called/.test(s)?'called':/leads/.test(s)?'leads':/trails/.test(s)?'trails':/Runoff/.test(s)?'runoff':'other';
   const legKind=r=>{const l=r.leg||''; if(!l) return 'none'; const house=/U\.S\. House/.test(l); const state=/(House|Senate|Assembly|Delegates|Council|Legislature)/.test(l.replace(/U\.S\. House[^;]*/g,'')); return house&&state?'both':house?'house':'state';};
   data.forEach(r=>{r.legk=legKind(r); r.stk=stKey(r.st); r.state=r.d.split('-')[0];});
+  const pviNum=p=>!p?null:p==='EVEN'?0:(p[0]==='R'?1:-1)*parseInt(p.slice(2),10);
+  data.forEach(r=>{r.pv=pviNum(r.pvi);});
 
   // caucus filter options
   const cset=new Set(); data.forEach(r=>{(r.cau||[]).forEach(c=>cset.add(c.c)); (r.ident||[]).forEach(i=>cset.add(i.replace(/ \(.*\)$/,'')));});
   const fc=document.getElementById('f-cau'); [...cset].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;fc.appendChild(o);});
 
-  const els={party:document.getElementById('f-party'),status:document.getElementById('f-status'),leg:document.getElementById('f-leg'),cau:fc,q:document.getElementById('f-q')};
+  const els={party:document.getElementById('f-party'),status:document.getElementById('f-status'),leg:document.getElementById('f-leg'),pvi:document.getElementById('f-pvi'),cau:fc,q:document.getElementById('f-q')};
   let sortK='d',sortDir=1;
   const stateOrder=d=>{const [s,n]=d.split('-');return s+'-'+(n==='AL'?'00':String(n).padStart(2,'0'));};
 
@@ -273,6 +279,8 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
       if(lv==='none'&&r.legk!=='none') return false;
       if(lv==='lead1'&&r.lt!==1) return false;
       if(lv==='lead'&&!r.lt) return false;
+      const pf=els.pvi.value;
+      if(pf){const v=r.pv; if(v===null) return false; if(pf==='dem'&&v>0) return false; if(pf==='r14'&&!(v>=1&&v<=4)) return false; if(pf==='r59'&&!(v>=5&&v<=9)) return false; if(pf==='r10'&&v<10) return false; if(pf==='rany'&&v<1) return false;}
       if(els.cau.value){const v=els.cau.value; const hit=(r.cau||[]).some(c=>c.c===v)||(r.ident||[]).some(i=>i.replace(/ \(.*\)$/,'')===v); if(!hit) return false;}
       if(q){const hay=[r.d,r.n,r.state,r.seat,r.pred,r.leg,r.lead||'',r.comm,r.other,r.note,(r.cau||[]).map(c=>c.c+' '+c.why).join(' '),(r.ident||[]).join(' ')].join(' ').toLowerCase(); if(!hay.includes(q)) return false;}
       return true;
@@ -327,7 +335,7 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
     rows.forEach(r=>{
       const id=aid(r);
       const tr=document.createElement('tr'); tr.className='row'+(opened.has(r.d+r.n)?' open':''); tr.tabIndex=0; tr.id=id;
-      tr.innerHTML='<td class="dist">'+esc(r.d)+'</td><td class="name">'+esc(r.n)+'<a class="anchor" href="#'+id+'" title="Link to this member">#</a>'+(/returning/i.test(r.seat)?'<span class="ret">returning former member</span>':'')+(/delegate/i.test(r.st)?'<span class="ret">nonvoting delegate</span>':'')+'</td>'+
+      tr.innerHTML='<td class="dist">'+esc(r.d)+(r.pvi?'<span class="pvi '+(r.pv>0?'R':r.pv<0?'D':'')+'" title="Cook PVI">'+esc(r.pvi)+'</span>':'')+'</td><td class="name">'+esc(r.n)+'<a class="anchor" href="#'+id+'" title="Link to this member">#</a>'+(/returning/i.test(r.seat)?'<span class="ret">returning former member</span>':'')+(/delegate/i.test(r.st)?'<span class="ret">nonvoting delegate</span>':'')+'</td>'+
         '<td><span class="pill '+r.p+'">'+r.p+'</span></td><td><span class="pill '+stClass(r.st)+'">'+esc(r.st)+'</span></td><td>'+esc(r.seat)+'</td><td class="leg">'+legCell(r)+'</td><td class="cau">'+cauCell(r)+'</td>';
       const dt=document.createElement('tr'); dt.className='detail'; dt.hidden=!opened.has(r.d+r.n); dt.innerHTML='<td colspan="7">'+detail(r)+'</td>';
       const toggle=()=>{const k=r.d+r.n; if(opened.has(k)){opened.delete(k);dt.hidden=true;tr.classList.remove('open');if(location.hash==='#'+id)setHash('');}else{opened.add(k);dt.hidden=false;tr.classList.add('open');setHash(id);}};
@@ -351,14 +359,15 @@ tr.detail td{background:color-mix(in srgb,var(--panel) 70%,var(--bg));padding:12
     const leg=live.filter(r=>r.legk!=='none').length, st=live.filter(r=>r.legk==='state'||r.legk==='both').length;
     const unc=rows.filter(r=>r.stk==='leads'||r.stk==='trails').length, run=rows.filter(r=>r.stk==='runoff').length;
     const l1=live.filter(r=>r.lt===1).length, lany=live.filter(r=>r.lt).length;
-    const t=[['Called or leading',live.length,D+' D · '+R+' R'],['With legislative service',leg,st+' from state/territorial legislatures'],['Held leadership roles',lany,l1+' chamber/caucus leaders'],['Uncalled races in view',unc,'leaders and trailers'],['Runoff seats',run,'Louisiana, Dec 12'],['Rows shown',rows.length,'of '+data.length]];
+    const liveD=live.filter(r=>r.p==='D'&&r.pv!==null); const dR=liveD.filter(r=>r.pv>0).length, dR5=liveD.filter(r=>r.pv>=5).length;
+    const t=[['Called or leading',live.length,D+' D · '+R+' R'],['With legislative service',leg,st+' from state/territorial legislatures'],['Held leadership roles',lany,l1+' chamber/caucus leaders'],['Uncalled races in view',unc,'leaders and trailers'],['Runoff seats',run,'Louisiana, Dec 12'],['Democrats in R-leaning seats',dR,dR5+' in R+5 or redder'],['Rows shown',rows.length,'of '+data.length]];
     document.getElementById('tiles').innerHTML=t.map(x=>'<div class="tile"><div class="k">'+x[0]+'</div><div class="v">'+x[1]+'<small>'+x[2]+'</small></div></div>').join('');
   }
   Object.values(els).forEach(e=>e.addEventListener('input',render));
   document.getElementById('f-reset').addEventListener('click',()=>{Object.values(els).forEach(e=>e.value='');render();});
   document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k; if(sortK===k) sortDir*=-1; else {sortK=k;sortDir=1;} render();}));
   try{const s=localStorage.getItem('fresh-filters'); if(s){const o=JSON.parse(s); Object.keys(o).forEach(k=>{if(els[k]) els[k].value=o[k];});}}catch(e){}
-  Object.values(els).forEach(e=>e.addEventListener('input',()=>{try{localStorage.setItem('fresh-filters',JSON.stringify({party:els.party.value,status:els.status.value,leg:els.leg.value,cau:els.cau.value,q:els.q.value}));}catch(err){}}));
+  Object.values(els).forEach(e=>e.addEventListener('input',()=>{try{localStorage.setItem('fresh-filters',JSON.stringify({party:els.party.value,status:els.status.value,leg:els.leg.value,pvi:els.pvi.value,cau:els.cau.value,q:els.q.value}));}catch(err){}}));
   render();
   // Deep links: #tx-18-menefee opens that member, clearing any filter that hides the row.
   function goToHash(){

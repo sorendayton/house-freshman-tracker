@@ -11,6 +11,10 @@
  "changelog": [
   {
    "d": "2026-11-10",
+   "t": "Added each district's Cook PVI (from Wikipedia's 2026 results tables), a seat-lean filter, a tile counting Democrats in Republican-leaning seats, and a method note: only 211 seats are even or Democratic-leaning, all held by Democrats, so the majority depends on Republican-leaning seats, most of them held by freshmen."
+  },
+  {
+   "d": "2026-11-10",
    "t": "Races called: Eli Crane (R) held AZ-2 over Jonathan Nez, 162,741–158,857 (AP, 11/09), and Mario Díaz-Balart (R) held FL-26 over Nicole Locklin, 114,578–112,874 (AP, 11/09); both challengers removed. CO-4 marked Called for Eileen Laubacher on CNN's projection, AP pending. FL-27 machine recount under way; MN-1 margin now 321 ahead of 11/19 certification."
   },
   {
@@ -49,6 +53,7 @@
  "members": [
   {
    "d": "AL-1",
+   "pvi": "R+17",
    "race": "Alabama's_1st_Congressional_District_election,_2026",
    "bp": "Jerry_Carl",
    "wp": "Jerry_Carl",
@@ -77,6 +82,7 @@
   },
   {
    "d": "AZ-1",
+   "pvi": "R+1",
    "race": "Arizona's_1st_Congressional_District_election,_2026",
    "bp": "Amish_Shah",
    "wp": "Amish_Shah",
@@ -106,6 +112,7 @@
   },
   {
    "d": "AZ-5",
+   "pvi": "R+10",
    "race": "Arizona's_5th_Congressional_District_election,_2026",
    "bp": "Mark_Lamb",
    "wp": "Mark_Lamb_(sheriff)",
@@ -136,6 +143,7 @@
   },
   {
    "d": "AZ-6",
+   "pvi": "EVEN",
    "race": "Arizona's_6th_Congressional_District_election,_2026",
    "bp": "JoAnna_Mendoza",
    "wp": "JoAnna_Mendoza",
@@ -167,6 +175,7 @@
   },
   {
    "d": "CA-1",
+   "pvi": "D+7",
    "race": "California's_1st_Congressional_District_election,_2026",
    "bp": "Mike_McGuire",
    "wp": "Mike_McGuire_(politician)",
@@ -197,6 +206,7 @@
   },
   {
    "d": "CA-4",
+   "pvi": "D+8",
    "race": "California's_4th_Congressional_District_election,_2026",
    "bp": "Eric_Jones_(California)",
    "wp": null,
@@ -224,6 +234,7 @@
   },
   {
    "d": "CA-6",
+   "pvi": "D+5",
    "race": "California's_6th_Congressional_District_election,_2026",
    "bp": "Richard_Pan",
    "wp": "Richard_Pan",
@@ -255,6 +266,7 @@
   },
   {
    "d": "CA-11",
+   "pvi": "D+36",
    "race": "California's_11th_Congressional_District_election,_2026",
    "bp": "Scott_Wiener",
    "wp": "Scott_Wiener",
@@ -287,6 +299,7 @@
   },
   {
    "d": "CA-22",
+   "pvi": "D+1",
    "race": "California's_22nd_Congressional_District_election,_2026",
    "bp": "Randy_Villegas_(California)",
    "wp": "Randy_Villegas",
@@ -312,6 +325,7 @@
   },
   {
    "d": "CA-23",
+   "pvi": "R+9",
    "race": "California's_23rd_Congressional_District_election,_2026",
    "bp": "Tessa_Lynn_Hodge",
    "wp": null,
@@ -341,6 +355,7 @@
   },
   {
    "d": "CA-26",
+   "pvi": "D+9",
    "race": "California's_26th_Congressional_District_election,_2026",
    "bp": "Jacqui_Irwin",
    "wp": "Jacqui_Irwin",
@@ -366,6 +381,7 @@
   },
   {
    "d": "CA-34",
+   "pvi": "D+28",
    "race": "California's_34th_Congressional_District_election,_2026",
    "bp": "Angela_Gonzales-Torres",
    "wp": "Angela_Gonzales-Torres",
@@ -391,6 +407,7 @@
   },
   {
    "d": "CA-38",
+   "pvi": "D+8",
    "race": "California's_38th_Congressional_District_election,_2026",
    "bp": "Hilda_Solis",
    "wp": "Hilda_Solis",
@@ -418,6 +435,7 @@
   },
   {
    "d": "CA-48",
+   "pvi": "D+2",
    "race": "California's_48th_Congressional_District_election,_2026",
    "bp": "Marni_von_Wilpert",
    "wp": "Marni_von_Wilpert",
@@ -441,6 +459,7 @@
   },
   {
    "d": "CO-1",
+   "pvi": "D+29",
    "race": "Colorado's_1st_Congressional_District_election,_2026",
    "bp": "Melat_Kiros",
    "wp": "Melat_Kiros",
@@ -466,6 +485,7 @@
   },
   {
    "d": "CO-4",
+   "pvi": "R+9",
    "race": "Colorado's_4th_Congressional_District_election,_2026",
    "bp": "Eileen_Laubacher",
    "wp": "Eileen_Laubacher",
@@ -500,6 +520,7 @@
   },
   {
    "d": "CO-5",
+   "pvi": "R+5",
    "race": "Colorado's_5th_Congressional_District_election,_2026",
    "bp": "Jessica_Killin",
    "wp": "Jessica_Killin",
@@ -525,6 +546,7 @@
   },
   {
    "d": "CO-8",
+   "pvi": "EVEN",
    "race": "Colorado's_8th_Congressional_District_election,_2026",
    "bp": "Manny_Rutinel",
    "wp": "Manny_Rutinel",
@@ -550,6 +572,7 @@
   },
   {
    "d": "CT-1",
+   "pvi": "D+12",
    "race": "Connecticut's_1st_Congressional_District_election,_2026",
    "bp": "Luke_Bronin",
    "wp": "Luke_Bronin",
@@ -573,6 +596,7 @@
   },
   {
    "d": "FL-2",
+   "pvi": "R+8",
    "race": "Florida's_2nd_Congressional_District_election,_2026",
    "bp": "Austin_Rogers",
    "wp": "Austin_Rogers_(politician)",
@@ -596,6 +620,7 @@
   },
   {
    "d": "FL-7",
+   "pvi": "R+5",
    "race": "Florida's_7th_Congressional_District_election,_2026",
    "bp": "Ryan_Elijah",
    "wp": null,
@@ -633,6 +658,7 @@
   },
   {
    "d": "FL-11",
+   "pvi": "R+7",
    "race": "Florida's_11th_Congressional_District_election,_2026",
    "bp": "Joe_Strada",
    "wp": "Joe_Strada",
@@ -656,6 +682,7 @@
   },
   {
    "d": "FL-16",
+   "pvi": "R+6",
    "race": "Florida's_16th_Congressional_District_election,_2026",
    "bp": "Sydney_Gruters",
    "wp": "Sydney_Gruters",
@@ -679,6 +706,7 @@
   },
   {
    "d": "FL-19",
+   "pvi": "R+14",
    "race": "Florida's_19th_Congressional_District_election,_2026",
    "bp": "Jim_Schwartzel",
    "wp": "Jim_Schwartzel",
@@ -707,6 +735,7 @@
   },
   {
    "d": "FL-22",
+   "pvi": "R+4",
    "race": "Florida's_22nd_Congressional_District_election,_2026",
    "bp": "Pia_Dandiya",
    "wp": "Pia_Dandiya",
@@ -736,6 +765,7 @@
   },
   {
    "d": "FL-24",
+   "pvi": "D+22",
    "race": "Florida's_24th_Congressional_District_election,_2026",
    "bp": "Oliver_Gilbert",
    "wp": "Oliver_Gilbert",
@@ -766,6 +796,7 @@
   },
   {
    "d": "FL-27",
+   "pvi": "R+6",
    "race": "Florida's_27th_Congressional_District_election,_2026",
    "bp": "Eliott_Rodriguez",
    "wp": "Eliott_Rodriguez",
@@ -795,6 +826,7 @@
   },
   {
    "d": "GA-1",
+   "pvi": "R+8",
    "race": "Georgia's_1st_Congressional_District_election,_2026",
    "bp": "James_Kingston_(Georgia)",
    "wp": "Jim_Kingston_(politician)",
@@ -823,6 +855,7 @@
   },
   {
    "d": "GA-10",
+   "pvi": "R+11",
    "race": "Georgia's_10th_Congressional_District_election,_2026",
    "bp": "Houston_Gaines",
    "wp": "Houston_Gaines",
@@ -858,6 +891,7 @@
   },
   {
    "d": "GA-11",
+   "pvi": "R+12",
    "race": "Georgia's_11th_Congressional_District_election,_2026",
    "bp": "John_Cowan",
    "wp": "John_Cowan_(Georgia_politician)",
@@ -886,6 +920,7 @@
   },
   {
    "d": "GA-13",
+   "pvi": "D+21",
    "race": "Georgia's_13th_Congressional_District_election,_2026",
    "bp": "Jasmine_Clark",
    "wp": "Jasmine_Clark",
@@ -916,6 +951,7 @@
   },
   {
    "d": "GU-AL",
+   "pvi": null,
    "race": "Guam's_At-large_Congressional_District_election,_2026",
    "bp": "Alicia_Limtiaco",
    "wp": "Alicia_Limtiaco",
@@ -940,6 +976,7 @@
   },
   {
    "d": "IL-2",
+   "pvi": "D+18",
    "race": "Illinois'_2nd_Congressional_District_election,_2026",
    "bp": "Donna_Miller_(Illinois)",
    "wp": "Donna_Miller",
@@ -965,6 +1002,7 @@
   },
   {
    "d": "IL-4",
+   "pvi": "D+17",
    "race": "Illinois'_4th_Congressional_District_election,_2026",
    "bp": "Patty_Garcia",
    "wp": "Patty_García",
@@ -990,6 +1028,7 @@
   },
   {
    "d": "IL-7",
+   "pvi": "D+34",
    "race": "Illinois'_7th_Congressional_District_election,_2026",
    "bp": "La_Shawn_K._Ford",
    "wp": "La_Shawn_Ford",
@@ -1022,6 +1061,7 @@
   },
   {
    "d": "IL-8",
+   "pvi": "D+5",
    "race": "Illinois'_8th_Congressional_District_election,_2026",
    "bp": "Melissa_Bean",
    "wp": "Melissa_Bean",
@@ -1050,6 +1090,7 @@
   },
   {
    "d": "IL-9",
+   "pvi": "D+19",
    "race": "Illinois'_9th_Congressional_District_election,_2026",
    "bp": "Daniel_K._Biss",
    "wp": "Daniel_Biss",
@@ -1073,6 +1114,7 @@
   },
   {
    "d": "IN-5",
+   "pvi": "R+8",
    "race": "Indiana's_5th_Congressional_District_election,_2026",
    "bp": "J.D._Ford",
    "wp": "J._D._Ford",
@@ -1100,6 +1142,7 @@
   },
   {
    "d": "IA-1",
+   "pvi": "R+4",
    "race": "Iowa's_1st_Congressional_District_election,_2026",
    "bp": "Christina_Bohannan",
    "wp": "Christina_Bohannan",
@@ -1123,6 +1166,7 @@
   },
   {
    "d": "IA-2",
+   "pvi": "R+4",
    "race": "Iowa's_2nd_Congressional_District_election,_2026",
    "bp": "Lindsay_James",
    "wp": "Lindsay_James_(politician)",
@@ -1148,6 +1192,7 @@
   },
   {
    "d": "IA-3",
+   "pvi": "R+2",
    "race": "Iowa's_3rd_Congressional_District_election,_2026",
    "bp": "Sarah_Trone_Garriott",
    "wp": "Sarah_Trone_Garriott",
@@ -1173,6 +1218,7 @@
   },
   {
    "d": "IA-4",
+   "pvi": "R+15",
    "race": "Iowa's_4th_Congressional_District_election,_2026",
    "bp": "Chris_McGowan",
    "wp": "Chris_McGowan",
@@ -1201,6 +1247,7 @@
   },
   {
    "d": "KY-4",
+   "pvi": "R+18",
    "race": "Kentucky's_4th_Congressional_District_election,_2026",
    "bp": "Ed_Gallrein",
    "wp": "Ed_Gallrein",
@@ -1231,6 +1278,7 @@
   },
   {
    "d": "KY-6",
+   "pvi": "R+7",
    "race": "Kentucky's_6th_Congressional_District_election,_2026",
    "bp": "Zach_Dembo",
    "wp": "Zach_Dembo",
@@ -1259,6 +1307,7 @@
   },
   {
    "d": "LA-5",
+   "pvi": "R+17",
    "race": "Louisiana's_5th_Congressional_District_election,_2026",
    "bp": "Gabe_Firment",
    "wp": "Gabe_Firment",
@@ -1293,6 +1342,7 @@
   },
   {
    "d": "LA-6",
+   "pvi": "R+16",
    "race": "Louisiana's_6th_Congressional_District_election,_2026",
    "bp": "Chauna_Banks",
    "wp": null,
@@ -1322,6 +1372,7 @@
   },
   {
    "d": "ME-2",
+   "pvi": "R+4",
    "race": "Maine's_2nd_Congressional_District_election,_2026",
    "bp": "Paul_LePage",
    "wp": "Paul_LePage",
@@ -1350,6 +1401,7 @@
   },
   {
    "d": "MD-5",
+   "pvi": "D+17",
    "race": "Maryland's_5th_Congressional_District_election,_2026",
    "bp": "Adrian_Boafo",
    "wp": "Adrian_Boafo",
@@ -1375,6 +1427,7 @@
   },
   {
    "d": "MA-6",
+   "pvi": "D+11",
    "race": "Massachusetts'_6th_Congressional_District_election,_2026",
    "bp": "Dan_Koh",
    "wp": "Dan_Koh",
@@ -1404,6 +1457,7 @@
   },
   {
    "d": "MI-4",
+   "pvi": "R+3",
    "race": "Michigan's_4th_Congressional_District_election,_2026",
    "bp": "Sean_McCann",
    "wp": "Sean_McCann_(politician)",
@@ -1431,6 +1485,7 @@
   },
   {
    "d": "MI-7",
+   "pvi": "EVEN",
    "race": "Michigan's_7th_Congressional_District_election,_2026",
    "bp": "William_Lawrence_(Michigan)",
    "wp": "William_Lawrence_(Michigan_politician)",
@@ -1454,6 +1509,7 @@
   },
   {
    "d": "MI-10",
+   "pvi": "R+3",
    "race": "Michigan's_10th_Congressional_District_election,_2026",
    "bp": "Christina_Hines",
    "wp": "Christina_Hines",
@@ -1477,6 +1533,7 @@
   },
   {
    "d": "MI-11",
+   "pvi": "D+9",
    "race": "Michigan's_11th_Congressional_District_election,_2026",
    "bp": "Jeremy_Moss",
    "wp": "Jeremy_Moss",
@@ -1504,6 +1561,7 @@
   },
   {
    "d": "MI-13",
+   "pvi": "D+22",
    "race": "Michigan's_13th_Congressional_District_election,_2026",
    "bp": "Donavan_McKinney",
    "wp": "Donavan_McKinney",
@@ -1529,6 +1587,7 @@
   },
   {
    "d": "MN-1",
+   "pvi": "R+6",
    "race": "Minnesota's_1st_Congressional_District_election,_2026",
    "bp": "Jake_Johnson_(Minnesota)",
    "wp": "Jake_Johnson_(Minnesota_politician)",
@@ -1561,6 +1620,7 @@
   },
   {
    "d": "MN-2",
+   "pvi": "D+3",
    "race": "Minnesota's_2nd_Congressional_District_election,_2026",
    "bp": "Matt_Little",
    "wp": "Matt_Little",
@@ -1589,6 +1649,7 @@
   },
   {
    "d": "MO-2",
+   "pvi": "R+4",
    "race": "Missouri's_2nd_Congressional_District_election,_2026",
    "bp": "Frederick_Wellman",
    "wp": "Fred_Wellman",
@@ -1614,6 +1675,7 @@
   },
   {
    "d": "MO-6",
+   "pvi": "R+19",
    "race": "Missouri's_6th_Congressional_District_election,_2026",
    "bp": "Chris_Stigall",
    "wp": "Chris_Stigall",
@@ -1642,6 +1704,7 @@
   },
   {
    "d": "MT-1",
+   "pvi": "R+5",
    "race": "Montana's_1st_Congressional_District_election,_2026",
    "bp": "Sam_Forstag",
    "wp": "Sam_Forstag",
@@ -1675,6 +1738,7 @@
   },
   {
    "d": "NE-2",
+   "pvi": "D+3",
    "race": "Nebraska's_2nd_Congressional_District_election,_2026",
    "bp": "Denise_Powell",
    "wp": "Denise_Powell",
@@ -1700,6 +1764,7 @@
   },
   {
    "d": "NV-2",
+   "pvi": "R+7",
    "race": "Nevada's_2nd_Congressional_District_election,_2026",
    "bp": "Teresa_Benitez-Thompson",
    "wp": "Teresa_Benitez-Thompson",
@@ -1727,6 +1792,7 @@
   },
   {
    "d": "NH-1",
+   "pvi": "D+2",
    "race": "New_Hampshire's_1st_Congressional_District_election,_2026",
    "bp": "Stefany_Shaheen",
    "wp": "Stefany_Shaheen",
@@ -1750,6 +1816,7 @@
   },
   {
    "d": "NJ-2",
+   "pvi": "R+5",
    "race": "New_Jersey's_2nd_Congressional_District_election,_2026",
    "bp": "Zack_Mullock",
    "wp": "Zack_Mullock",
@@ -1773,6 +1840,7 @@
   },
   {
    "d": "NJ-7",
+   "pvi": "EVEN",
    "race": "New_Jersey's_7th_Congressional_District_election,_2026",
    "bp": "Rebecca_Bennett_(New_Jersey)",
    "wp": "Rebecca_Bennett_(politician)",
@@ -1798,6 +1866,7 @@
   },
   {
    "d": "NJ-12",
+   "pvi": "D+13",
    "race": "New_Jersey's_12th_Congressional_District_election,_2026",
    "bp": "Adam_Hamawy",
    "wp": "Adam_Hamawy",
@@ -1823,6 +1892,7 @@
   },
   {
    "d": "NY-7",
+   "pvi": "D+25",
    "race": "New_York's_7th_Congressional_District_election,_2026",
    "bp": "Claire_Valdez",
    "wp": "Claire_Valdez",
@@ -1848,6 +1918,7 @@
   },
   {
    "d": "NY-10",
+   "pvi": "D+32",
    "race": "New_York's_10th_Congressional_District_election,_2026",
    "bp": "Brad_Lander",
    "wp": "Brad_Lander",
@@ -1871,6 +1942,7 @@
   },
   {
    "d": "NY-12",
+   "pvi": "D+33",
    "race": "New_York's_12th_Congressional_District_election,_2026",
    "bp": "Micah_Lasher",
    "wp": "Micah_Lasher",
@@ -1899,6 +1971,7 @@
   },
   {
    "d": "NY-13",
+   "pvi": "D+32",
    "race": "New_York's_13th_Congressional_District_election,_2026",
    "bp": "Darializa_Avila_Chevalier",
    "wp": "Darializa_Avila_Chevalier",
@@ -1924,6 +1997,7 @@
   },
   {
    "d": "NY-17",
+   "pvi": "D+1",
    "race": "New_York's_17th_Congressional_District_election,_2026",
    "bp": "Cait_Conley",
    "wp": "Cait_Conley",
@@ -1949,6 +2023,7 @@
   },
   {
    "d": "NY-21",
+   "pvi": "R+10",
    "race": "New_York's_21st_Congressional_District_election,_2026",
    "bp": "Anthony_Constantino",
    "wp": "Anthony_Constantino_(politician)",
@@ -1977,6 +2052,7 @@
   },
   {
    "d": "NC-3",
+   "pvi": "R+6",
    "race": "North_Carolina's_3rd_Congressional_District_election,_2026",
    "bp": "Raymond_Smith_Jr.",
    "wp": "Raymond_Smith_Jr.",
@@ -2007,6 +2083,7 @@
   },
   {
    "d": "NC-5",
+   "pvi": "R+9",
    "race": "North_Carolina's_5th_Congressional_District_election,_2026",
    "bp": "Chuck_Hubbard",
    "wp": "Chuck_Hubbard",
@@ -2034,6 +2111,7 @@
   },
   {
    "d": "NC-6",
+   "pvi": "R+9",
    "race": "North_Carolina's_6th_Congressional_District_election,_2026",
    "bp": "Cyril_Jefferson",
    "wp": "Cyril_Jefferson",
@@ -2064,6 +2142,7 @@
   },
   {
    "d": "NC-7",
+   "pvi": "R+7",
    "race": "North_Carolina's_7th_Congressional_District_election,_2026",
    "bp": "Kimberly_Hardy",
    "wp": null,
@@ -2093,6 +2172,7 @@
   },
   {
    "d": "NC-9",
+   "pvi": "R+8",
    "race": "North_Carolina's_9th_Congressional_District_election,_2026",
    "bp": "Richard_Ojeda",
    "wp": "Richard_Ojeda",
@@ -2118,6 +2198,7 @@
   },
   {
    "d": "NC-10",
+   "pvi": "R+9",
    "race": "North_Carolina's_10th_Congressional_District_election,_2026",
    "bp": "Ashley_Bell_(North_Carolina)",
    "wp": null,
@@ -2139,6 +2220,7 @@
   },
   {
    "d": "NC-11",
+   "pvi": "R+5",
    "race": "North_Carolina's_11th_Congressional_District_election,_2026",
    "bp": "Jamie_Ager",
    "wp": "Jamie_Ager",
@@ -2167,6 +2249,7 @@
   },
   {
    "d": "NC-13",
+   "pvi": "R+8",
    "race": "North_Carolina's_13th_Congressional_District_election,_2026",
    "bp": "Paul_Barringer",
    "wp": "Paul_Barringer_(attorney)",
@@ -2190,6 +2273,7 @@
   },
   {
    "d": "NC-14",
+   "pvi": "R+8",
    "race": "North_Carolina's_14th_Congressional_District_election,_2026",
    "bp": "Lakesha_Womack",
    "wp": "LaKesha_Womack",
@@ -2215,6 +2299,7 @@
   },
   {
    "d": "OH-7",
+   "pvi": "R+5",
    "race": "Ohio's_7th_Congressional_District_election,_2026",
    "bp": "Brian_Poindexter",
    "wp": "Brian_Poindexter",
@@ -2248,6 +2333,7 @@
   },
   {
    "d": "OH-10",
+   "pvi": "R+4",
    "race": "Ohio's_10th_Congressional_District_election,_2026",
    "bp": "Kristina_Knickerbocker",
    "wp": "Kristina_Knickerbocker",
@@ -2273,6 +2359,7 @@
   },
   {
    "d": "OH-15",
+   "pvi": "R+5",
    "race": "Ohio's_15th_Congressional_District_election,_2026",
    "bp": "Don_Leonard",
    "wp": "Don_Leonard_(politician)",
@@ -2296,6 +2383,7 @@
   },
   {
    "d": "OK-1",
+   "pvi": "R+11",
    "race": "Oklahoma's_1st_Congressional_District_election,_2026",
    "bp": "Mark_Tedford",
    "wp": "Mark_Tedford",
@@ -2326,6 +2414,7 @@
   },
   {
    "d": "PA-1",
+   "pvi": "D+1",
    "race": "Pennsylvania's_1st_Congressional_District_election,_2026",
    "bp": "Bob_Harvie",
    "wp": "Bob_Harvie_(politician)",
@@ -2354,6 +2443,7 @@
   },
   {
    "d": "PA-3",
+   "pvi": "D+40",
    "race": "Pennsylvania's_3rd_Congressional_District_election,_2026",
    "bp": "Christopher_Rabb",
    "wp": "Chris_Rabb",
@@ -2381,6 +2471,7 @@
   },
   {
    "d": "PA-7",
+   "pvi": "R+1",
    "race": "Pennsylvania's_7th_Congressional_District_election,_2026",
    "bp": "Bob_Brooks_(Pennsylvania)",
    "wp": "Bob_Brooks_(Pennsylvania_politician)",
@@ -2414,6 +2505,7 @@
   },
   {
    "d": "PA-8",
+   "pvi": "R+4",
    "race": "Pennsylvania's_8th_Congressional_District_election,_2026",
    "bp": "Paige_Cognetti",
    "wp": "Paige_Cognetti",
@@ -2437,6 +2529,7 @@
   },
   {
    "d": "PA-10",
+   "pvi": "R+3",
    "race": "Pennsylvania's_10th_Congressional_District_election,_2026",
    "bp": "Janelle_Stelson",
    "wp": "Janelle_Stelson",
@@ -2460,6 +2553,7 @@
   },
   {
    "d": "SC-1",
+   "pvi": "R+6",
    "race": "South_Carolina's_1st_Congressional_District_election,_2026",
    "bp": "Nancy_Lacore",
    "wp": "Nancy_Lacore",
@@ -2490,6 +2584,7 @@
   },
   {
    "d": "SC-2",
+   "pvi": "R+7",
    "race": "South_Carolina's_2nd_Congressional_District_election,_2026",
    "bp": "Zyon_Khalifa",
    "wp": null,
@@ -2513,6 +2608,7 @@
   },
   {
    "d": "SC-5",
+   "pvi": "R+11",
    "race": "South_Carolina's_5th_Congressional_District_election,_2026",
    "bp": "Wes_Climer",
    "wp": "Wes_Climer",
@@ -2543,6 +2639,7 @@
   },
   {
    "d": "SD-AL",
+   "pvi": "R+15",
    "race": "South_Dakota's_At-large_Congressional_District_election,_2026",
    "bp": "Marty_J._Jackley",
    "wp": "Marty_Jackley",
@@ -2571,6 +2668,7 @@
   },
   {
    "d": "TN-4",
+   "pvi": "R+11",
    "race": "Tennessee's_4th_Congressional_District_election,_2026",
    "bp": "Victoria_Broderick",
    "wp": "Victoria_Broderick",
@@ -2594,6 +2692,7 @@
   },
   {
    "d": "TN-5",
+   "pvi": "R+10",
    "race": "Tennessee's_5th_Congressional_District_election,_2026",
    "bp": "Charlie_Hatcher",
    "wp": "Charlie_Hatcher",
@@ -2627,6 +2726,7 @@
   },
   {
    "d": "TN-6",
+   "pvi": "R+13",
    "race": "Tennessee's_6th_Congressional_District_election,_2026",
    "bp": "Johnny_Garrett",
    "wp": "Johnny_Garrett_(politician)",
@@ -2652,6 +2752,7 @@
   },
   {
    "d": "TN-9",
+   "pvi": "R+9",
    "race": "Tennessee's_9th_Congressional_District_election,_2026",
    "bp": "Brent_Taylor_(Tennessee)",
    "wp": "Brent_Taylor_(Tennessee_politician)",
@@ -2682,6 +2783,7 @@
   },
   {
    "d": "TX-2",
+   "pvi": "R+11",
    "race": "Texas'_2nd_Congressional_District_election,_2026",
    "bp": "Steve_Toth",
    "wp": "Steve_Toth",
@@ -2707,6 +2809,7 @@
   },
   {
    "d": "TX-8",
+   "pvi": "R+13",
    "race": "Texas'_8th_Congressional_District_election,_2026",
    "bp": "Jessica_Steinmann",
    "wp": "Jessica_Steinmann",
@@ -2735,6 +2838,7 @@
   },
   {
    "d": "TX-9",
+   "pvi": "R+9",
    "race": "Texas'_9th_Congressional_District_election,_2026",
    "bp": "Leticia_Gutierrez",
    "wp": "Leticia_Gutierrez",
@@ -2765,6 +2869,7 @@
   },
   {
    "d": "TX-10",
+   "pvi": "R+10",
    "race": "Texas'_10th_Congressional_District_election,_2026",
    "bp": "Chris_Gober",
    "wp": "Chris_Gober",
@@ -2793,6 +2898,7 @@
   },
   {
    "d": "TX-15",
+   "pvi": "R+7",
    "race": "Texas'_15th_Congressional_District_election,_2026",
    "bp": "Bobby_Pulido",
    "wp": "Bobby_Pulido",
@@ -2823,6 +2929,7 @@
   },
   {
    "d": "TX-19",
+   "pvi": "R+25",
    "race": "Texas'_19th_Congressional_District_election,_2026",
    "bp": "Tom_Sell",
    "wp": "Tom_Sell",
@@ -2856,6 +2963,7 @@
   },
   {
    "d": "TX-21",
+   "pvi": "R+10",
    "race": "Texas'_21st_Congressional_District_election,_2026",
    "bp": "Mark_Teixeira",
    "wp": "Mark_Teixeira",
@@ -2884,6 +2992,7 @@
   },
   {
    "d": "TX-22",
+   "pvi": "R+11",
    "race": "Texas'_22nd_Congressional_District_election,_2026",
    "bp": "Trever_Nehls",
    "wp": "Trever_Nehls",
@@ -2915,6 +3024,7 @@
   },
   {
    "d": "TX-23",
+   "pvi": "R+7",
    "race": "Texas'_23rd_Congressional_District_election,_2026",
    "bp": "Katy_Padilla_Stout",
    "wp": "Katy_Padilla_Stout",
@@ -2950,6 +3060,7 @@
   },
   {
    "d": "TX-30",
+   "pvi": "D+25",
    "race": "Texas'_30th_Congressional_District_election,_2026",
    "bp": "Frederick_Haynes",
    "wp": "Frederick_Haynes_III",
@@ -2975,6 +3086,7 @@
   },
   {
    "d": "TX-32",
+   "pvi": "R+8",
    "race": "Texas'_32nd_Congressional_District_election,_2026",
    "bp": "Jace_Yarbrough",
    "wp": "Jace_Yarbrough",
@@ -3000,6 +3112,7 @@
   },
   {
    "d": "TX-33",
+   "pvi": "D+18",
    "race": "Texas'_33rd_Congressional_District_election,_2026",
    "bp": "Colin_Allred",
    "wp": "Colin_Allred",
@@ -3025,6 +3138,7 @@
   },
   {
    "d": "TX-35",
+   "pvi": "R+4",
    "race": "Texas'_35th_Congressional_District_election,_2026",
    "bp": "Johnny_Garcia_(Texas_congressional_candidate)",
    "wp": "Johnny_Garcia_(politician)",
@@ -3056,6 +3170,7 @@
   },
   {
    "d": "TX-38",
+   "pvi": "R+10",
    "race": "Texas'_38th_Congressional_District_election,_2026",
    "bp": "Jon_Bonck",
    "wp": "Jon_Bonck",
@@ -3079,6 +3194,7 @@
   },
   {
    "d": "UT-1",
+   "pvi": "D+12",
    "race": "Utah's_1st_Congressional_District_election,_2026",
    "bp": "Ben_McAdams_(Utah)",
    "wp": "Ben_McAdams",
@@ -3112,6 +3228,7 @@
   },
   {
    "d": "VA-1",
+   "pvi": "R+3",
    "race": "Virginia's_1st_Congressional_District_election,_2026",
    "bp": "Shannon_Taylor_(Virginia)",
    "wp": "Shannon_Taylor_(politician)",
@@ -3135,6 +3252,7 @@
   },
   {
    "d": "VA-2",
+   "pvi": "EVEN",
    "race": "Virginia's_2nd_Congressional_District_election,_2026",
    "bp": "Elaine_Luria",
    "wp": "Elaine_Luria",
@@ -3167,6 +3285,7 @@
   },
   {
    "d": "WA-4",
+   "pvi": "R+10",
    "race": "Washington's_4th_Congressional_District_election,_2026",
    "bp": "Amanda_McKinney_(Washington)",
    "wp": "Amanda_McKinney",
@@ -3200,6 +3319,7 @@
   },
   {
    "d": "WA-5",
+   "pvi": "R+5",
    "race": "Washington's_5th_Congressional_District_election,_2026",
    "bp": "Carmela_Conroy",
    "wp": "Carmela_Conroy",
@@ -3221,6 +3341,7 @@
   },
   {
    "d": "WI-1",
+   "pvi": "R+2",
    "race": "Wisconsin's_1st_Congressional_District_election,_2026",
    "bp": "Mitchell_Berman",
    "wp": "Mitchell_Berman_(politician)",
@@ -3249,6 +3370,7 @@
   },
   {
    "d": "WI-3",
+   "pvi": "R+3",
    "race": "Wisconsin's_3rd_Congressional_District_election,_2026",
    "bp": "Rebecca_Cooke",
    "wp": "Rebecca_Cooke",
@@ -3277,6 +3399,7 @@
   },
   {
    "d": "WI-7",
+   "pvi": "R+11",
    "race": "Wisconsin's_7th_Congressional_District_election,_2026",
    "bp": "Michael_Alfonso",
    "wp": "Michael_Alfonso_(politician)",
@@ -3305,6 +3428,7 @@
   },
   {
    "d": "WY-AL",
+   "pvi": "R+23",
    "race": "Wyoming's_At-Large_Congressional_District_election,_2026",
    "bp": "Chuck_Gray_(Wyoming)",
    "wp": "Chuck_Gray_(Wyoming_politician)",
@@ -3333,6 +3457,7 @@
   },
   {
    "d": "DC-AL",
+   "pvi": null,
    "race": "District_of_Columbia's_At-large_Congressional_District_election,_2026",
    "bp": "Robert_White_(District_of_Columbia)",
    "wp": "Robert_White_(Washington,_D.C.,_politician)",
@@ -3360,6 +3485,7 @@
   },
   {
    "d": "VI-AL",
+   "pvi": null,
    "race": "Virgin_Islands'_At-large_Congressional_District_election,_2026",
    "bp": "Janelle_Sarauw",
    "wp": "Janelle_Sarauw",
