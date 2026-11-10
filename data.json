@@ -1,14 +1,18 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-09",
+  "status_as_of": "2026-11-10",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 124
+  "row_count": 122
  },
  "changelog": [
+  {
+   "d": "2026-11-10",
+   "t": "Races called: Eli Crane (R) held AZ-2 over Jonathan Nez, 162,741–158,857 (AP, 11/09), and Mario Díaz-Balart (R) held FL-26 over Nicole Locklin, 114,578–112,874 (AP, 11/09); both challengers removed. CO-4 marked Called for Eileen Laubacher on CNN's projection, AP pending. FL-27 machine recount under way; MN-1 margin now 321 ahead of 11/19 certification."
+  },
   {
    "d": "2026-11-09",
    "t": "Added a Confirmed level (C) above the predicted levels H, M and L. C means the caucus or the member has publicly named someone as a member or incoming member; each confirmed tag keeps the level it was predicted at. First confirmations: CAPAC for Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect Alicia Limtiaco (D), who unseated James Moylan; the original sweep covered delegate seats that opened but not one that changed hands."
@@ -99,35 +103,6 @@
    ],
    "ident": [],
    "note": ""
-  },
-  {
-   "d": "AZ-2",
-   "race": "Arizona's_2nd_Congressional_District_election,_2026",
-   "bp": "Jonathan_Nez",
-   "wp": "Jonathan_Nez",
-   "res": {
-    "label": "Arizona Secretary of State",
-    "url": "https://app.enhancedvoting.com/results/public/Arizona/elections/110326GeneralElection"
-   },
-   "n": "Jonathan Nez",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Eli Crane (R)",
-   "pred": "Eli Crane (R)",
-   "leg": "Navajo Nation Council delegate (tribal legislature); Navajo Nation Vice President 2015–19; President 2019–23",
-   "comm": "Not captured (tribal council)",
-   "other": "2024 nominee for this seat",
-   "cau": [
-    {
-     "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
-    }
-   ],
-   "ident": [
-    "Congressional Native American Caucus"
-   ],
-   "note": "Trails Crane 48.47–49.65 (158,856–162,741, −3,885) per the Arizona Secretary of State, 11/07; late early ballots still being tabulated. AP has not called it. Likely loss."
   },
   {
    "d": "AZ-5",
@@ -500,7 +475,7 @@
    },
    "n": "Eileen Laubacher",
    "p": "D",
-   "st": "Uncalled — leads",
+   "st": "Called (CNN projection; AP pending)",
    "seat": "Challenging incumbent Lauren Boebert (R)",
    "pred": "Lauren Boebert (R)",
    "leg": "",
@@ -521,7 +496,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Leads Boebert 48.76–47.93 (185,818–182,646, +3,172) per the Colorado Secretary of State, 11/07; post-election reporting (cures, military and overseas ballots) in progress in all 21 counties. The Boebert campaign is alleging 'unusual voting patterns' (Denver Gazette, 11/06). Not called."
+   "note": "CNN projected Laubacher the winner on 11/09; AP and NBC have not called it. She leads Boebert by 3,352 votes with about 98.1% counted (AP estimate, 11/09); counties upload results through 11/13, and the lead is outside Colorado's automatic-recount range. Laubacher has declared victory. Boebert's campaign had alleged \"unusual voting patterns\" (Denver Gazette, 11/06)."
   },
   {
    "d": "CO-5",
@@ -790,27 +765,6 @@
    "note": ""
   },
   {
-   "d": "FL-26",
-   "race": "Florida's_26th_Congressional_District_election,_2026",
-   "bp": "Nicole_Locklin",
-   "wp": null,
-   "res": {
-    "label": "Florida Division of Elections",
-    "url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative"
-   },
-   "n": "Nicole Locklin",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Mario Díaz-Balart (R)",
-   "pred": "Mario Díaz-Balart (R)",
-   "leg": "",
-   "comm": "",
-   "other": "Attorney (10+ years; compliance and risk in health care, technology and manufacturing; data and AI work); University of Oklahoma, Santa Clara Law",
-   "cau": [],
-   "ident": [],
-   "note": "Trails Díaz-Balart 49.1–49.9 (112,874–114,578, −1,704; 0.74 pts) per Ballotpedia, 11/08; outside Florida's 0.5% machine-recount threshold unless late ballots narrow it. Runs as an \"anti-corruption Democrat\" taking no corporate PAC money; opposes the Cuba embargo, unusual in a Miami-Dade seat. Díaz-Balart is a senior appropriator and a listed RG2 member. Not called."
-  },
-  {
    "d": "FL-27",
    "race": "Florida's_27th_Congressional_District_election,_2026",
    "bp": "Eliott_Rodriguez",
@@ -837,7 +791,7 @@
    "ident": [
     "Congressional Hispanic Caucus"
    ],
-   "note": "Trails Salazar by about 1,100 votes (123,438–124,528; 0.44 pts). Automatic machine recount, expected to begin the week of 11/09; the Rodriguez campaign is suing to force the Miami-Dade elections supervisor's recusal (WSVN, 11/06). Likely loss."
+   "note": "Trails Salazar by 1,090 votes (123,438–124,528; 0.44 pts). The Miami-Dade machine recount began 11/09. A federal judge held an emergency hearing that morning on the Rodriguez campaign's bid to remove the county elections supervisor from the recount; the recount went ahead as scheduled (NBC Miami, Local 10, 11/09). Likely loss."
   },
   {
    "d": "GA-1",
@@ -1603,7 +1557,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Finstad by 323 votes (under 0.1 pt). Finstad has requested a recount; county canvasses run 11/06–13, the State Canvassing Board meets 11/19, and the recount follows (MPR, 11/05; FOX 9, 11/05). Johnson has declared victory."
+   "note": "Leads Finstad by 321 votes (163,054–162,733; under 0.1 pt), matching AP and the Secretary of State with all precincts reporting (KTTC, 11/06). The State Canvassing Board certifies 11/19; Finstad has said he will request a recount, which can begin only after certification. Johnson has declared victory."
   },
   {
    "d": "MN-2",
