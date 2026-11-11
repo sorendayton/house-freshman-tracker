@@ -1,53 +1,57 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-10",
+  "status_as_of": "2026-11-11",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 122
+  "row_count": 120
  },
  "changelog": [
   {
-   "d": "2026-11-10",
-   "t": "Added each district's Cook PVI (from Wikipedia's 2026 results tables), a seat-lean filter, a tile counting Democrats in Republican-leaning seats, and a method note: only 211 seats are even or Democratic-leaning, all held by Democrats, so the majority depends on Republican-leaning seats, most of them held by freshmen."
+   "d": "2026-11-11",
+   "t": "Races called: Salazar (R) held FL-27 by 1,116 votes after a machine recount, and Baumgartner (R) held WA-5, 157,299 to 142,959; Rodriguez and Conroy are off the list. Elijah (R) won FL-7, outside recount range. In NC-3, provisional ballots put Raymond Smith (D) 293 votes ahead of Murphy. Margins updated for NC-5, CA-4 and CA-23. Page text edited throughout."
   },
   {
    "d": "2026-11-10",
-   "t": "Races called: Eli Crane (R) held AZ-2 over Jonathan Nez, 162,741–158,857 (AP, 11/09), and Mario Díaz-Balart (R) held FL-26 over Nicole Locklin, 114,578–112,874 (AP, 11/09); both challengers removed. CO-4 marked Called for Eileen Laubacher on CNN's projection, AP pending. FL-27 machine recount under way; MN-1 margin now 321 ahead of 11/19 certification."
+   "t": "Added each district's Cook PVI from Wikipedia's 2026 results tables, a seat-lean filter, a tile counting Democrats in Republican-leaning seats and a method note on what the numbers show: Democrats hold all 211 even or Democratic-leaning seats, so their majority depends on Republican-leaning seats, most of them held by freshmen."
+  },
+  {
+   "d": "2026-11-10",
+   "t": "Races called: Crane (R) held AZ-2 over Jonathan Nez, 162,741 to 158,857, and Díaz-Balart (R) held FL-26 over Nicole Locklin, 114,578 to 112,874; both challengers are off the list. CO-4 is marked Called for Laubacher on CNN's projection while AP's call is pending. The FL-27 recount began; Johnson's MN-1 lead stood at 321."
   },
   {
    "d": "2026-11-09",
-   "t": "Added a Confirmed level (C) above the predicted levels H, M and L. C means the caucus or the member has publicly named someone as a member or incoming member; each confirmed tag keeps the level it was predicted at. First confirmations: CAPAC for Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect Alicia Limtiaco (D), who unseated James Moylan; the original sweep covered delegate seats that opened but not one that changed hands."
+   "t": "Added a Confirmed level (C) for memberships the caucus or the member has announced; each keeps the level it was predicted at. CAPAC's November 4 release confirms Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect, Alicia Limtiaco (D), who unseated James Moylan; the first pass covered delegate seats that opened, not one that changed hands."
   },
   {
    "d": "2026-11-09",
-   "t": "Weekly caucus update. Blue Dog: the Blue Dog PAC's list of backed winners raised Mendoza (AZ-6) and Dembo (KY-6) to new High tags and Ager, Cooke and Forstag to High. Progressive Caucus: CPC PAC endorsements raised nine members to High (Forstag, Padilla Stout, Brooks, García, McGuire, White, Little, Lasher, Poindexter). Poindexter's Blue Dog tag stays Low because sources conflict. CAPAC's 11/04 release is noted on four rows. Caucus-level announcements added to the method section."
+   "t": "Weekly caucus update. The Blue Dog PAC's list of winners it backed adds Mendoza (AZ-6) and Dembo (KY-6) at High and raises Ager, Cooke and Forstag to High. CPC PAC endorsements put nine members at High: Forstag, Padilla Stout, Brooks, García, McGuire, White, Little, Lasher and Poindexter. Poindexter's Blue Dog tag stays Low because the sources conflict. Caucus announcements added to the method section."
   },
   {
    "d": "2026-11-08",
-   "t": "Added two Democratic challengers the original sweep missed because their uncalled races had incumbent leaders: Tessa Lynn Hodge (CA-23, trails Obernolte by 2.8 pts) and Nicole Locklin (FL-26, trails Díaz-Balart by 0.7 pts). Both fall inside the page's 3-point rule for trailers. A full check of every uncalled race found no other omissions."
+   "t": "Added two Democratic challengers the first pass missed because the incumbents led their uncalled races: Tessa Lynn Hodge (CA-23, 2.8 points behind Obernolte) and Nicole Locklin (FL-26, 0.7 behind Díaz-Balart). Both fall within the 3-point rule. A check of every uncalled race found no other omissions."
   },
   {
    "d": "2026-11-08",
-   "t": "RG2 corrected against its public member list (47 members, on the group's PAC site), which the earlier method section wrongly said did not exist. Yesterday's audit over-corrected: about a third of listed members hold R+10 or redder seats and half hold R+7 or redder, many of them appropriators, so a competitive seat is one route into RG2, not the only one. Tags now go to freshmen with a specific route (a competitive seat, succeeding a listed member, or an Appropriations or Agriculture background) and no record pointing the other way: Elijah, Kingston, McKinney, Gaines, Sell and Hatcher. Steinmann, Gober and Alfonso stay untagged."
+   "t": "Corrected the RG2 tags against the group's public member list, which the method section had wrongly said did not exist. The previous day's audit went too far: a third of the members hold R+10 or redder seats, many of them appropriators. Freshmen are now tagged if they hold a competitive seat, succeed a listed member, or come from appropriations or agriculture, and nothing in the record points the other way. That gives six: Elijah, Kingston, McKinney, Gaines, Sell and Hatcher."
   },
   {
    "d": "2026-11-07",
-   "t": "Republican Governance Group guesses cut from 14 to 1 after an audit. The original tags leaned on Main Street PAC endorsements, which in 2026 also went to movement-right candidates in safe seats (an AFPI general counsel, America PAC's chief counsel, a Bongino Show producer). RG2 members mostly come from seats where a moderate brand pays; only FL-7 (R+5) clears that bar."
+   "t": "Cut the RG2 guesses from 14 to 1. The original tags followed Main Street PAC endorsements, which in 2026 also went to movement-conservative candidates in safe seats: an AFPI general counsel, America PAC's chief counsel and a Bongino Show producer."
   },
   {
    "d": "2026-11-07",
-   "t": "Races called: Mark Lamb (AZ-5, R), Anthony Constantino (NY-21, R), Victoria Broderick (TN-4, D). Dan Green (FL-9) and Colby Watson (NC-8) removed after their races were called against them. Margins refreshed for all twelve uncalled rows from state election boards and local reporting, and each uncalled or runoff row now links to the official state results page: recounts pending or requested in MN-1, FL-27 and SC-2; NC-3, NC-5 and NC-7 inside recount range ahead of the 11/13 canvass; FL-7 a hair outside; CA-4, CO-4, AZ-2 and WA-5 still counting. Added Open Graph, Search Console, Dataset metadata, per-member links, and data.csv. Every row now links to its Ballotpedia race page. Member links are now taken from each race's own candidate listing instead of being built from the name; that fixed 51 of 242 links that were broken: 22 on Ballotpedia (13 disambiguation pages, 9 missing) and 29 on Wikipedia (10 pointed at a different person of the same name, 15 at disambiguation pages, 4 at nothing useful). Six members have no Wikipedia article, so that link is omitted for them."
+   "t": "Races called: Lamb (AZ-5, R), Constantino (NY-21, R) and Broderick (TN-4, D). Green (FL-9) and Watson (NC-8) are off the list. Margins updated for all twelve uncalled races, each now linked to the state's official count. Every row now links to its Ballotpedia race page. Member links now come from each race's candidate list; that fixed 51 of 242 links, 22 on Ballotpedia and 29 on Wikipedia, ten of which pointed to a different person with the same name. Six members have no Wikipedia article. Also added a CSV download, link previews and search metadata."
   },
   {
    "d": "2026-11-06",
-   "t": "Added Republican Governance Group as a guess-only (Low) tag on 14 Republicans, with FEC context on the group's 2026 giving. Added leadership-role flags (chamber leadership, committee chair, vice chair/subcommittee) for prior legislative service. Converted method section to bullets. Published to GitHub Pages with data.js and data.json."
+   "t": "Added low-confidence RG2 tags for 14 Republicans and flags for leadership posts held in state legislatures. Moved the page to GitHub Pages, with data.js and data.json."
   },
   {
    "d": "2026-11-06",
-   "t": "Initial release: every open or flipped House seat and the two open delegate seats, with called winners, leaders and trailers in uncalled races, and the Louisiana runoffs; prior legislative service, committee assignments, and predicted ideological and identity caucus memberships."
+   "t": "First version: every open or flipped House seat and two open delegate seats, with called winners, leaders and trailers in uncalled races, and the Louisiana runoffs; prior legislative service, committee assignments and predicted caucus memberships."
   }
  ],
  "members": [
@@ -78,7 +82,7 @@
     }
    ],
    "ident": [],
-   "note": "Returning member, not a true freshman; keeps no seniority."
+   "note": "Returning former member (served 2021–25)."
   },
   {
    "d": "AZ-1",
@@ -202,7 +206,7 @@
     }
    ],
    "ident": [],
-   "note": "Former state Senate leader — unusually strong institutional background for a freshman."
+   "note": "Former president pro tem of the California Senate."
   },
   {
    "d": "CA-4",
@@ -230,7 +234,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Thompson 51.6–48.4 (72,473–68,108, +4,365) per the California Secretary of State as of 11/06 11 p.m.; a large share of vote-by-mail ballots remain, and the canvass runs to 12/11. Would be a D-on-D incumbent defeat. Not called."
+   "note": "Leads Thompson 52.1–47.9 (101,407–93,092, +8,315) per the California Secretary of State, 11/10 5:31 p.m., with all precincts partially reporting; mail ballots are still being counted and the state certifies by 12/11. Would be a D-on-D incumbent defeat. Not called."
   },
   {
    "d": "CA-6",
@@ -295,7 +299,7 @@
    "ident": [
     "Congressional Equality Caucus"
    ],
-   "note": "Wikipedia marks him winner; some trackers still list uncalled (leads Connie Chan by ~9 pts at 100%)."
+   "note": "Wikipedia marks him the winner; some trackers still show the race uncalled (he leads Connie Chan by about 9 points with all precincts in)."
   },
   {
    "d": "CA-22",
@@ -321,7 +325,7 @@
    "ident": [
     "Congressional Hispanic Caucus"
    ],
-   "note": "Beat Assemblymember Jasmeet Bains in the top-two; a progressive in a Central Valley swing seat."
+   "note": "Beat Assemblymember Jasmeet Bains in the top-two primary. A progressive in a Central Valley swing seat."
   },
   {
    "d": "CA-23",
@@ -351,7 +355,7 @@
    "ident": [
     "Congressional Equality Caucus (reported: identifies as bisexual)"
    ],
-   "note": "Trails Obernolte 48.6–51.4 (92,701–98,135, −5,434; 2.8 pts) per the California Secretary of State, 11/08 4:21 p.m.; California counts mail ballots for weeks and certifies by 12/11. Obernolte is a listed RG2 member. Not called."
+   "note": "Trails Obernolte 49.2–50.8 (101,691–105,095, −3,404) per the California Secretary of State, 11/10 5:31 p.m.; the gap narrowed from 5,434 on 11/08 as mail ballots were counted. Certification by 12/11. Obernolte is a listed RG2 member. Not called."
   },
   {
    "d": "CA-26",
@@ -455,7 +459,7 @@
     }
    ],
    "ident": [],
-   "note": "Former House committee staffer — knows the institution."
+   "note": "Former House committee staffer."
   },
   {
    "d": "CO-1",
@@ -616,7 +620,7 @@
     }
    ],
    "ident": [],
-   "note": "Bio needs filling in."
+   "note": "Biography not yet researched."
   },
   {
    "d": "FL-7",
@@ -630,7 +634,7 @@
    },
    "n": "Ryan Elijah",
    "p": "R",
-   "st": "Uncalled — leads",
+   "st": "Called",
    "seat": "Open — incumbent lost primary",
    "pred": "Cory Mills (R)",
    "leg": "",
@@ -654,7 +658,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Dalton 49.7–49.2 (161,300–159,669, +1,631; 0.505 pts), a hair outside Florida's 0.5% machine-recount threshold; the first unofficial returns due 11/07 determine whether a recount is ordered (Florida Today, 11/06). Not called."
+   "note": "AP called it for Elijah at 2:09 p.m. on 11/10. The margin stayed just outside Florida's 0.5% machine-recount threshold, so there is no recount; Dalton congratulated him. Certification by the state canvassing commission on 11/17 (ClickOrlando, 11/10)."
   },
   {
    "d": "FL-11",
@@ -678,7 +682,7 @@
     }
    ],
    "ident": [],
-   "note": "Bio thin."
+   "note": "Biography thin."
   },
   {
    "d": "FL-16",
@@ -702,7 +706,7 @@
     }
    ],
    "ident": [],
-   "note": "Bio needs filling in."
+   "note": "Biography not yet researched."
   },
   {
    "d": "FL-19",
@@ -795,36 +799,6 @@
    "note": ""
   },
   {
-   "d": "FL-27",
-   "pvi": "R+6",
-   "race": "Florida's_27th_Congressional_District_election,_2026",
-   "bp": "Eliott_Rodriguez",
-   "wp": "Eliott_Rodriguez",
-   "res": {
-    "label": "Florida Division of Elections",
-    "url": "https://floridaelectionwatch.gov/FederalOffices/USRepresentative"
-   },
-   "n": "Eliott Rodriguez",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent María Elvira Salazar (R)",
-   "pred": "María Elvira Salazar (R)",
-   "leg": "",
-   "comm": "",
-   "other": "CBS Miami anchor (25 yrs)",
-   "cau": [
-    {
-     "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
-    }
-   ],
-   "ident": [
-    "Congressional Hispanic Caucus"
-   ],
-   "note": "Trails Salazar by 1,090 votes (123,438–124,528; 0.44 pts). The Miami-Dade machine recount began 11/09. A federal judge held an emergency hearing that morning on the Rodriguez campaign's bid to remove the county elections supervisor from the recount; the recount went ahead as scheduled (NBC Miami, Local 10, 11/09). Likely loss."
-  },
-  {
    "d": "GA-1",
    "pvi": "R+8",
    "race": "Georgia's_1st_Congressional_District_election,_2026",
@@ -887,7 +861,7 @@
     }
    ],
    "ident": [],
-   "note": "Age 31; Appropriations vice chair in the state House."
+   "note": "Age 31. Was vice chair of Appropriations in the Georgia House."
   },
   {
    "d": "GA-11",
@@ -1086,7 +1060,7 @@
     }
    ],
    "ident": [],
-   "note": "Returning member after 16 years."
+   "note": "Returning former member, after 16 years away."
   },
   {
    "d": "IL-9",
@@ -1110,7 +1084,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Kat Abughazaleh (Justice Dems) in primary."
+   "note": "Beat Kat Abughazaleh, a Justice Democrats candidate, in the primary."
   },
   {
    "d": "IN-5",
@@ -1162,7 +1136,7 @@
     }
    ],
    "ident": [],
-   "note": "Third try; lost by 799 votes in 2024."
+   "note": "Won on her third try; lost by 799 votes in 2024."
   },
   {
    "d": "IA-2",
@@ -1188,7 +1162,7 @@
     }
    ],
    "ident": [],
-   "note": "Minority whip; ranking member on state Government Oversight."
+   "note": "Was minority whip in the Iowa House and ranking member on Government Oversight."
   },
   {
    "d": "IA-3",
@@ -1303,7 +1277,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Ralph Alvarado (R; former KY state senator, TN health commissioner). Bio needs filling in."
+   "note": "Beat Ralph Alvarado (R), a former Kentucky state senator and Tennessee health commissioner. Biography not yet researched."
   },
   {
    "d": "LA-5",
@@ -1338,7 +1312,7 @@
     }
    ],
    "ident": [],
-   "note": "Faces Pat Moore (D; Louisiana House 2019–, Dist. 17: Administration of Criminal Justice; Municipal & Parochial Affairs; Transportation; Health & Welfare; Medicaid Oversight) in the Dec. 12 runoff. Moore led the Nov. 3 round by ~0.7 pts in a multi-candidate field; district is heavily Republican."
+   "note": "Faces Pat Moore (D) in the December 12 runoff. Moore has served in the Louisiana House since 2019 (District 17; committees include Administration of Criminal Justice, Health & Welfare and Medicaid Oversight). She led the November 3 round by about 0.7 points in a crowded field, but the district is R+17."
   },
   {
    "d": "LA-6",
@@ -1368,7 +1342,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Faces Blake Miguez (R; Louisiana Senate 2024–, Dist. 22; Louisiana House 2016–24, House Republican Delegation Chairman 2019–24; committees: Senate & Governmental Affairs (Vice Chair), Finance, Education, Judiciary C, Joint Budget) in the Dec. 12 runoff. Banks led by ~0.3 pts; district is Democratic-leaning."
+   "note": "Faces Blake Miguez (R) in the December 12 runoff. Miguez has served in the Louisiana Senate since 2024 and was in the Louisiana House from 2016 to 2024, where he chaired the Republican delegation from 2019; he sits on Senate & Governmental Affairs (vice chair), Finance, Education, Judiciary C and Joint Budget. Banks led the first round by about 0.3 points, but the redrawn district is R+16."
   },
   {
    "d": "ME-2",
@@ -1397,7 +1371,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia marks winner; one tracker still lists uncalled (+1.6 at 94%). Age 78."
+   "note": "Wikipedia marks him the winner; one tracker still shows the race uncalled (+1.6 with 94% counted), and ranked-choice tabulation resumes 11/12. Age 78."
   },
   {
    "d": "MD-5",
@@ -1423,7 +1397,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Age 32; Hoyer protégé."
+   "note": "Age 32. A protégé of Steny Hoyer, his predecessor."
   },
   {
    "d": "MA-6",
@@ -1505,7 +1479,7 @@
     }
    ],
    "ident": [],
-   "note": "A movement progressive winning a Lansing-area swing seat."
+   "note": "A movement progressive who won a Lansing-area swing seat."
   },
   {
    "d": "MI-10",
@@ -1557,7 +1531,7 @@
    "ident": [
     "Congressional Equality Caucus"
    ],
-   "note": "Chaired state Senate Elections — relevant for election-administration work."
+   "note": "Chaired the state Senate Elections Committee."
   },
   {
    "d": "MI-13",
@@ -1967,7 +1941,7 @@
     }
    ],
    "ident": [],
-   "note": "Nadler's chosen successor."
+   "note": "Jerry Nadler's chosen successor."
   },
   {
    "d": "NY-13",
@@ -2019,7 +1993,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Election-security background — relevant to election-administration and seating questions."
+   "note": "Background in election security."
   },
   {
    "d": "NY-21",
@@ -2048,7 +2022,7 @@
     }
    ],
    "ident": [],
-   "note": "Declared winner 11/06 (Spectrum News; ABC News call). Defeated Blake Gendebien (D; dairy farmer; NewDem-endorsed, Blue Dog-profiled) narrowly."
+   "note": "Declared the winner 11/06 (Spectrum News; ABC News call). Narrowly beat Blake Gendebien (D), a dairy farmer endorsed by the NewDem Action Fund and profiled by the Blue Dog PAC."
   },
   {
    "d": "NC-3",
@@ -2062,7 +2036,7 @@
    },
    "n": "Raymond Smith Jr.",
    "p": "D",
-   "st": "Uncalled — trails",
+   "st": "Uncalled — leads",
    "seat": "Challenging incumbent Greg Murphy (R)",
    "pred": "Greg Murphy (R)",
    "leg": "North Carolina House 2019–22 (Dist. 21)",
@@ -2079,7 +2053,7 @@
     "Congressional Black Caucus",
     "Veterans caucuses"
    ],
-   "note": "Trails Murphy by 233 votes (117,350–117,583; 0.1 pt) per NCSBE as of 11/06; provisional and late absentee ballots are added at the 11/13 county canvass; inside North Carolina's 1% recount threshold. Not called."
+   "note": "Provisional and absentee ballots moved Smith from 233 votes behind to 293 ahead of Murphy, 118,488–118,195, with all nine counties reporting (Daily Reflector; WUNC, 11/10). Inside North Carolina's 1% recount threshold: county canvass 11/13, recount requests due by noon 11/17, state certification 11/24. Not called."
   },
   {
    "d": "NC-5",
@@ -2107,7 +2081,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Foxx by 99 votes (139,034–138,935) per NCSBE as of 11/06; up to about 3,130 provisional ballots district-wide are still under review (county boards meet 11/10, canvass 11/13) and military ballots remain outstanding; a recount is likely either way (Watauga Democrat, 11/05). Would be the upset of the cycle. Not called."
+   "note": "Leads Foxx by 325 votes as of 7:15 p.m. 11/10, with every county but Rockingham reporting provisional ballots (WUNC). The lead changed hands during the day on the State Board site before Guilford and Watauga provisionals put Hubbard back ahead (WataugaOnline). Inside the 1% recount threshold: canvass 11/13, recount requests due noon 11/17, certification 11/24. Would be the upset of the cycle. Not called."
   },
   {
    "d": "NC-6",
@@ -2194,7 +2168,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Beat the NRCC chairman."
+   "note": "Beat Richard Hudson, chairman of the NRCC."
   },
   {
    "d": "NC-10",
@@ -2329,7 +2303,7 @@
     }
    ],
    "ident": [],
-   "note": "CPC PAC-endorsed; Blue Dog status disputed (see caucus basis)."
+   "note": "Endorsed by the CPC PAC; his Blue Dog status is disputed (see caucus basis)."
   },
   {
    "d": "OH-10",
@@ -2355,7 +2329,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Beat the former HASC and Intelligence chair."
+   "note": "Beat Mike Turner, former chairman of the Intelligence Committee."
   },
   {
    "d": "OH-15",
@@ -2439,7 +2413,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat the Problem Solvers co-chair."
+   "note": "Beat Brian Fitzpatrick, co-chair of the Problem Solvers Caucus."
   },
   {
    "d": "PA-3",
@@ -2501,7 +2475,7 @@
     }
    ],
    "ident": [],
-   "note": "Endorsed by both Blue Dog PAC and CPC PAC; watch which he joins."
+   "note": "Endorsed by both the Blue Dog PAC and the CPC PAC; which caucus he joins is open."
   },
   {
    "d": "PA-8",
@@ -2580,7 +2554,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Wikipedia marks winner; one tracker lists +1.0 uncalled. Highest-ranking military officer in the class."
+   "note": "Wikipedia marks her the winner; one tracker shows her ahead by 1.0 point, uncalled. A retired vice admiral, the highest-ranking military officer in the class."
   },
   {
    "d": "SC-2",
@@ -2635,7 +2609,7 @@
     }
    ],
    "ident": [],
-   "note": "Chaired a Senate committee and sat on Finance and Legislative Oversight."
+   "note": "Chaired a state Senate committee and sat on Finance and Legislative Oversight."
   },
   {
    "d": "SD-AL",
@@ -2664,7 +2638,7 @@
     }
    ],
    "ident": [],
-   "note": "Longest-serving AG in state history."
+   "note": "The longest-serving attorney general in South Dakota history."
   },
   {
    "d": "TN-4",
@@ -2688,7 +2662,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia now marks her the winner over DesJarlais; local outlets (Tennessee Lookout, Nashville Banner, WPLN) reported the win 11/04. AP call not independently confirmed as of 11/07. Age 34."
+   "note": "Wikipedia marks her the winner over DesJarlais, and local outlets (Tennessee Lookout, Nashville Banner, WPLN) reported the win on 11/04. AP has not called it; Davidson County counts provisional ballots on 11/16. Age 34."
   },
   {
    "d": "TN-5",
@@ -2722,7 +2696,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Ogles in a primary upset."
+   "note": "Unseated Andy Ogles in the primary."
   },
   {
    "d": "TN-6",
@@ -2748,7 +2722,7 @@
     }
    ],
    "ident": [],
-   "note": "State House majority whip."
+   "note": "Majority whip in the Tennessee House."
   },
   {
    "d": "TN-9",
@@ -2805,7 +2779,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Crenshaw in the March primary."
+   "note": "Beat Dan Crenshaw in the March primary."
   },
   {
    "d": "TX-8",
@@ -2834,7 +2808,7 @@
     }
    ],
    "ident": [],
-   "note": "AFPI lawyer — a Trump-administration policy-shop alumna."
+   "note": "Former general counsel of the America First Policy Institute."
   },
   {
    "d": "TX-9",
@@ -2959,7 +2933,7 @@
     }
    ],
    "ident": [],
-   "note": "Former House committee staffer — knows the institution."
+   "note": "Former House Agriculture Committee staff."
   },
   {
    "d": "TX-21",
@@ -2988,7 +2962,7 @@
     }
    ],
    "ident": [],
-   "note": "Main Street-backed successor to a Freedom Caucus seat."
+   "note": "Main Street-backed; succeeds Chip Roy, a Freedom Caucus member."
   },
   {
    "d": "TX-22",
@@ -3020,7 +2994,7 @@
     "Veterans caucuses",
     "Law Enforcement Caucus"
    ],
-   "note": "First member succeeded by an identical twin."
+   "note": "Succeeds his identical twin, Troy Nehls."
   },
   {
    "d": "TX-23",
@@ -3108,7 +3082,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "The GOP's only successful Texas redistricting pickup."
+   "note": "The only Texas seat Republicans gained from redistricting."
   },
   {
    "d": "TX-33",
@@ -3134,7 +3108,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Returning member; beat Julie Johnson in primary."
+   "note": "Returning former member; beat Julie Johnson in the primary."
   },
   {
    "d": "TX-35",
@@ -3190,7 +3164,7 @@
     }
    ],
    "ident": [],
-   "note": "Bio thin."
+   "note": "Biography thin."
   },
   {
    "d": "UT-1",
@@ -3224,7 +3198,7 @@
     }
    ],
    "ident": [],
-   "note": "Returning member."
+   "note": "Returning former member."
   },
   {
    "d": "VA-1",
@@ -3281,7 +3255,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Returning member; rematch win."
+   "note": "Returning former member; won a rematch."
   },
   {
    "d": "WA-4",
@@ -3315,29 +3289,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia marks winner (top-two, R vs. D)."
-  },
-  {
-   "d": "WA-5",
-   "pvi": "R+5",
-   "race": "Washington's_5th_Congressional_District_election,_2026",
-   "bp": "Carmela_Conroy",
-   "wp": "Carmela_Conroy",
-   "res": {
-    "label": "Washington Secretary of State",
-    "url": "https://results.votewa.gov/results/public/washington/elections/20261103/ballot-items/54c40000-9064-bbec-6f41-08df15c0a82a"
-   },
-   "n": "Carmela Conroy",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Michael Baumgartner (R)",
-   "pred": "Michael Baumgartner (R)",
-   "leg": "",
-   "comm": "",
-   "other": "U.S. Foreign Service officer; deputy prosecutor; Naval War College",
-   "cau": [],
-   "ident": [],
-   "note": "Trails Baumgartner 48.10–51.55 (130,652–140,011, −9,359) per the Washington Secretary of State, 11/07, with the gap widening in each count; counties certify 11/24. Likely loss."
+   "note": "Wikipedia marks her the winner (top-two race, Republican against Democrat)."
   },
   {
    "d": "WI-1",
@@ -3366,7 +3318,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat the House Administration chairman — the committee that handles House rules and operations."
+   "note": "Beat Bryan Steil, chairman of the House Administration Committee, which oversees House operations and federal elections."
   },
   {
    "d": "WI-3",
@@ -3395,7 +3347,7 @@
     }
    ],
    "ident": [],
-   "note": "Third try."
+   "note": "Won on her third try."
   },
   {
    "d": "WI-7",
@@ -3424,7 +3376,7 @@
     }
    ],
    "ident": [],
-   "note": "Age 26; first Gen Z Republican elected. Main Street endorsement despite media-right background."
+   "note": "Age 26 and the first Republican from Generation Z elected to the House. Main Street endorsed him despite his background in right-wing media."
   },
   {
    "d": "WY-AL",
@@ -3453,7 +3405,7 @@
     }
    ],
    "ident": [],
-   "note": "As Secretary of State, Wyoming's chief election officer — relevant to election-administration and certification questions. Age 36."
+   "note": "As Wyoming's secretary of state, he was its chief election officer. Age 36."
   },
   {
    "d": "DC-AL",
