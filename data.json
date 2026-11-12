@@ -1,17 +1,21 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-11",
+  "status_as_of": "2026-11-12",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 120
+  "row_count": 119
  },
  "changelog": [
   {
+   "d": "2026-11-12",
+   "t": "Republican incumbent Murphy conceded NC-3 to Democrat Raymond Smith, who leads by 293; the row now shows Called while AP's call is pending. The SC-2 recount confirmed Republican incumbent Wilson, by about 2,840 votes, and Democrat Khalifa is off the list. Margins updated for NC-5 (Democrat Hubbard +335), NC-7 and NC-10; NC-10 is inside North Carolina's recount threshold, which an earlier note had wrong. ME-2 note updated: Democrat Dunlap conceded to Republican LePage, with the ranked-choice tabulation still to finish."
+  },
+  {
    "d": "2026-11-11",
-   "t": "Races called: Salazar (R) held FL-27 by 1,116 votes after a machine recount, and Baumgartner (R) held WA-5, 157,299 to 142,959; Rodriguez and Conroy are off the list. Elijah (R) won FL-7, outside recount range. In NC-3, provisional ballots put Raymond Smith (D) 293 votes ahead of Murphy. Margins updated for NC-5, CA-4 and CA-23. Page text edited throughout."
+   "t": "Races called: Republican incumbent Salazar held FL-27 by 1,116 votes after a machine recount, and Republican incumbent Baumgartner held WA-5, 157,299 to 142,959; their Democratic challengers, Rodriguez and Conroy, are off the list. Republican Elijah won the open FL-7, outside recount range. In NC-3, provisional ballots put Democrat Raymond Smith 293 votes ahead of Republican incumbent Murphy. Margins updated for NC-5, CA-4 and CA-23. Page text edited throughout."
   },
   {
    "d": "2026-11-10",
@@ -19,31 +23,31 @@
   },
   {
    "d": "2026-11-10",
-   "t": "Races called: Crane (R) held AZ-2 over Jonathan Nez, 162,741 to 158,857, and Díaz-Balart (R) held FL-26 over Nicole Locklin, 114,578 to 112,874; both challengers are off the list. CO-4 is marked Called for Laubacher on CNN's projection while AP's call is pending. The FL-27 recount began; Johnson's MN-1 lead stood at 321."
+   "t": "Races called: Republican incumbent Crane held AZ-2 over Democrat Jonathan Nez, 162,741 to 158,857, and Republican incumbent Díaz-Balart held FL-26 over Democrat Nicole Locklin, 114,578 to 112,874; both challengers are off the list. CO-4 is marked Called for Democrat Laubacher over Republican incumbent Boebert on CNN's projection, while AP's call is pending. The FL-27 recount began; Democrat Johnson's MN-1 lead stood at 321."
   },
   {
    "d": "2026-11-09",
-   "t": "Added a Confirmed level (C) for memberships the caucus or the member has announced; each keeps the level it was predicted at. CAPAC's November 4 release confirms Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect, Alicia Limtiaco (D), who unseated James Moylan; the first pass covered delegate seats that opened, not one that changed hands."
+   "t": "Added a Confirmed level (C) for memberships the caucus or the member has announced; each keeps the level it was predicted at. CAPAC's November 4 release confirms four Democrats: Dandiya, Koh, Pan and Shah. Added Guam's delegate-elect, Democrat Alicia Limtiaco, who unseated Republican James Moylan; the first pass covered delegate seats that opened, not one that changed hands."
   },
   {
    "d": "2026-11-09",
-   "t": "Weekly caucus update. The Blue Dog PAC's list of winners it backed adds Mendoza (AZ-6) and Dembo (KY-6) at High and raises Ager, Cooke and Forstag to High. CPC PAC endorsements put nine members at High: Forstag, Padilla Stout, Brooks, García, McGuire, White, Little, Lasher and Poindexter. Poindexter's Blue Dog tag stays Low because the sources conflict. Caucus announcements added to the method section."
+   "t": "Weekly caucus update (all Democrats). The Blue Dog PAC's list of winners it backed adds Mendoza (AZ-6) and Dembo (KY-6) at High and raises Ager, Cooke and Forstag to High. CPC PAC endorsements put nine members at High: Forstag, Padilla Stout, Brooks, García, McGuire, White, Little, Lasher and Poindexter. Poindexter's Blue Dog tag stays Low because the sources conflict. Caucus announcements added to the method section."
   },
   {
    "d": "2026-11-08",
-   "t": "Added two Democratic challengers the first pass missed because the incumbents led their uncalled races: Tessa Lynn Hodge (CA-23, 2.8 points behind Obernolte) and Nicole Locklin (FL-26, 0.7 behind Díaz-Balart). Both fall within the 3-point rule. A check of every uncalled race found no other omissions."
+   "t": "Added two Democratic challengers the first pass missed because the Republican incumbents led their uncalled races: Tessa Lynn Hodge (CA-23, 2.8 points behind Obernolte) and Nicole Locklin (FL-26, 0.7 behind Díaz-Balart). Both fall within the 3-point rule. A check of every uncalled race found no other omissions."
   },
   {
    "d": "2026-11-08",
-   "t": "Corrected the RG2 tags against the group's public member list, which the method section had wrongly said did not exist. The previous day's audit went too far: a third of the members hold R+10 or redder seats, many of them appropriators. Freshmen are now tagged if they hold a competitive seat, succeed a listed member, or come from appropriations or agriculture, and nothing in the record points the other way. That gives six: Elijah, Kingston, McKinney, Gaines, Sell and Hatcher."
+   "t": "Corrected the RG2 tags against the group's public member list, which the method section had wrongly said did not exist. The previous day's audit went too far: a third of the members hold R+10 or redder seats, many of them appropriators. Republican freshmen are now tagged if they hold a competitive seat, succeed a listed member, or come from appropriations or agriculture, and nothing in the record points the other way. That gives six: Elijah, Kingston, McKinney, Gaines, Sell and Hatcher."
   },
   {
    "d": "2026-11-07",
-   "t": "Cut the RG2 guesses from 14 to 1. The original tags followed Main Street PAC endorsements, which in 2026 also went to movement-conservative candidates in safe seats: an AFPI general counsel, America PAC's chief counsel and a Bongino Show producer."
+   "t": "Cut the RG2 guesses from 14 Republicans to 1. The original tags followed Main Street PAC endorsements, which in 2026 also went to movement-conservative candidates in safe seats: an AFPI general counsel, America PAC's chief counsel and a Bongino Show producer."
   },
   {
    "d": "2026-11-07",
-   "t": "Races called: Lamb (AZ-5, R), Constantino (NY-21, R) and Broderick (TN-4, D). Green (FL-9) and Watson (NC-8) are off the list. Margins updated for all twelve uncalled races, each now linked to the state's official count. Every row now links to its Ballotpedia race page. Member links now come from each race's candidate list; that fixed 51 of 242 links, 22 on Ballotpedia and 29 on Wikipedia, ten of which pointed to a different person with the same name. Six members have no Wikipedia article. Also added a CSV download, link previews and search metadata."
+   "t": "Races called: Republicans Lamb (AZ-5) and Constantino (NY-21), and Democrat Broderick (TN-4). Republican Green (FL-9) and Democrat Watson (NC-8) are off the list. Margins updated for all twelve uncalled races, each now linked to the state's official count. Every row now links to its Ballotpedia race page. Member links now come from each race's candidate list; that fixed 51 of 242 links, 22 on Ballotpedia and 29 on Wikipedia, ten of which pointed to a different person with the same name. Six members have no Wikipedia article. Also added a CSV download, link previews and search metadata."
   },
   {
    "d": "2026-11-06",
@@ -299,7 +303,7 @@
    "ident": [
     "Congressional Equality Caucus"
    ],
-   "note": "Wikipedia marks him the winner; some trackers still show the race uncalled (he leads Connie Chan by about 9 points with all precincts in)."
+   "note": "Wikipedia marks him the winner; some trackers still show the race uncalled (he leads Connie Chan (D) by about 9 points with all precincts in)."
   },
   {
    "d": "CA-22",
@@ -325,7 +329,7 @@
    "ident": [
     "Congressional Hispanic Caucus"
    ],
-   "note": "Beat Assemblymember Jasmeet Bains in the top-two primary. A progressive in a Central Valley swing seat."
+   "note": "Beat Assemblymember Jasmeet Bains (D) in the top-two primary. A progressive in a Central Valley swing seat."
   },
   {
    "d": "CA-23",
@@ -998,7 +1002,7 @@
    "ident": [
     "Congressional Hispanic Caucus"
    ],
-   "note": "Not related to Chuy García."
+   "note": "Not related to her predecessor, Chuy García (D)."
   },
   {
    "d": "IL-7",
@@ -1084,7 +1088,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Kat Abughazaleh, a Justice Democrats candidate, in the primary."
+   "note": "Beat Kat Abughazaleh (D), a Justice Democrats candidate, in the primary."
   },
   {
    "d": "IN-5",
@@ -1371,7 +1375,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia marks him the winner; one tracker still shows the race uncalled (+1.6 with 94% counted), and ranked-choice tabulation resumes 11/12. Age 78."
+   "note": "Dunlap (D) has conceded. LePage led the first-choice count 170,263 to 164,845 (49.9%), short of a majority, so state law requires a ranked-choice tabulation before certification; it was due to resume 11/12 (WMTW). Age 78."
   },
   {
    "d": "MD-5",
@@ -1397,7 +1401,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Age 32. A protégé of Steny Hoyer, his predecessor."
+   "note": "Age 32. A protégé of Steny Hoyer (D), his predecessor."
   },
   {
    "d": "MA-6",
@@ -1941,7 +1945,7 @@
     }
    ],
    "ident": [],
-   "note": "Jerry Nadler's chosen successor."
+   "note": "Chosen successor to Jerry Nadler (D)."
   },
   {
    "d": "NY-13",
@@ -2036,7 +2040,7 @@
    },
    "n": "Raymond Smith Jr.",
    "p": "D",
-   "st": "Uncalled — leads",
+   "st": "Called (concession; AP pending)",
    "seat": "Challenging incumbent Greg Murphy (R)",
    "pred": "Greg Murphy (R)",
    "leg": "North Carolina House 2019–22 (Dist. 21)",
@@ -2053,7 +2057,7 @@
     "Congressional Black Caucus",
     "Veterans caucuses"
    ],
-   "note": "Provisional and absentee ballots moved Smith from 233 votes behind to 293 ahead of Murphy, 118,488–118,195, with all nine counties reporting (Daily Reflector; WUNC, 11/10). Inside North Carolina's 1% recount threshold: county canvass 11/13, recount requests due by noon 11/17, state certification 11/24. Not called."
+   "note": "Murphy (R) conceded on 11/11 and congratulated \"Representative-Elect Raymond Smith\"; his statement did not mention a recount (WITN; WRAL). Smith leads by 293 votes, 118,488 to 118,195, per the State Board after provisional ballots. AP has not called it. Counties canvass 11/13, recount requests are due by noon 11/17, and the state certifies 11/24."
   },
   {
    "d": "NC-5",
@@ -2081,7 +2085,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Foxx by 325 votes as of 7:15 p.m. 11/10, with every county but Rockingham reporting provisional ballots (WUNC). The lead changed hands during the day on the State Board site before Guilford and Watauga provisionals put Hubbard back ahead (WataugaOnline). Inside the 1% recount threshold: canvass 11/13, recount requests due noon 11/17, certification 11/24. Would be the upset of the cycle. Not called."
+   "note": "Leads Foxx (R) by 335 votes after provisional and cured ballots, including Rockingham County's (Yahoo News, 11/11). Military and overseas ballots count if received by 5 p.m. 11/12; counties canvass 11/13. Foxx is expected to request a recount, which the margin allows. Not called."
   },
   {
    "d": "NC-6",
@@ -2142,7 +2146,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Trails Rouzer by 2,425 votes (157,560–159,985; 0.76 pts) per NCSBE as of 11/06; inside the 1% recount threshold; canvass 11/13. Likely loss."
+   "note": "Trails Rouzer (R) by 2,270 votes, 158,431 to 160,701 (0.70 points), per Ballotpedia, 11/12. Inside North Carolina's 1% recount threshold; counties canvass 11/13. Likely loss."
   },
   {
    "d": "NC-9",
@@ -2168,7 +2172,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Beat Richard Hudson, chairman of the NRCC."
+   "note": "Beat Richard Hudson (R), chairman of the NRCC."
   },
   {
    "d": "NC-10",
@@ -2190,7 +2194,7 @@
    "other": "Physician assistant; educator",
    "cau": [],
    "ident": [],
-   "note": "Trails Harrigan by 3,029 votes (143,137–146,166; 1.03 pts) per NCSBE as of 11/06; just outside the 1% recount threshold; canvass 11/13. Likely loss."
+   "note": "Trails Harrigan (R) by 2,485 votes, 144,109 to 146,594 (0.84 points of the total), per Ballotpedia, 11/12. That is inside North Carolina's 1% recount threshold; an earlier note here said outside. Counties canvass 11/13. Likely loss."
   },
   {
    "d": "NC-11",
@@ -2329,7 +2333,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Beat Mike Turner, former chairman of the Intelligence Committee."
+   "note": "Beat Mike Turner (R), former chairman of the Intelligence Committee."
   },
   {
    "d": "OH-15",
@@ -2413,7 +2417,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Brian Fitzpatrick, co-chair of the Problem Solvers Caucus."
+   "note": "Beat Brian Fitzpatrick (R), co-chair of the Problem Solvers Caucus."
   },
   {
    "d": "PA-3",
@@ -2557,30 +2561,6 @@
    "note": "Wikipedia marks her the winner; one tracker shows her ahead by 1.0 point, uncalled. A retired vice admiral, the highest-ranking military officer in the class."
   },
   {
-   "d": "SC-2",
-   "pvi": "R+7",
-   "race": "South_Carolina's_2nd_Congressional_District_election,_2026",
-   "bp": "Zyon_Khalifa",
-   "wp": null,
-   "res": {
-    "label": "SC Election Commission",
-    "url": "https://www.enr-scvotes.org/SC/127300/"
-   },
-   "n": "Zyon Khalifa",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Joe Wilson (R)",
-   "pred": "Joe Wilson (R)",
-   "leg": "",
-   "comm": "",
-   "other": "U.S. Air Force 2020–25; law graduate (2026)",
-   "cau": [],
-   "ident": [
-    "Veterans caucuses"
-   ],
-   "note": "Trails Wilson 48.83–49.82 (144,865–147,791, −2,926; 0.99 pts) per the SC Election Commission with all counties reporting, 11/06. Inside South Carolina's 1% mandatory-recount threshold, so a recount is pending (WACH, 11/06). Likely loss."
-  },
-  {
    "d": "SC-5",
    "pvi": "R+11",
    "race": "South_Carolina's_5th_Congressional_District_election,_2026",
@@ -2662,7 +2642,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia marks her the winner over DesJarlais, and local outlets (Tennessee Lookout, Nashville Banner, WPLN) reported the win on 11/04. AP has not called it; Davidson County counts provisional ballots on 11/16. Age 34."
+   "note": "Wikipedia marks her the winner over Republican incumbent Scott DesJarlais, and local outlets (Tennessee Lookout, Nashville Banner, WPLN) reported the win on 11/04. AP has not called it; Davidson County counts provisional ballots on 11/16. Age 34."
   },
   {
    "d": "TN-5",
@@ -2696,7 +2676,7 @@
     }
    ],
    "ident": [],
-   "note": "Unseated Andy Ogles in the primary."
+   "note": "Unseated Rep. Andy Ogles (R) in the primary."
   },
   {
    "d": "TN-6",
@@ -2779,7 +2759,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Dan Crenshaw in the March primary."
+   "note": "Beat Rep. Dan Crenshaw (R) in the March primary."
   },
   {
    "d": "TX-8",
@@ -2962,7 +2942,7 @@
     }
    ],
    "ident": [],
-   "note": "Main Street-backed; succeeds Chip Roy, a Freedom Caucus member."
+   "note": "Main Street-backed; succeeds Chip Roy (R), a Freedom Caucus member."
   },
   {
    "d": "TX-22",
@@ -2994,7 +2974,7 @@
     "Veterans caucuses",
     "Law Enforcement Caucus"
    ],
-   "note": "Succeeds his identical twin, Troy Nehls."
+   "note": "Succeeds his identical twin, Troy Nehls (R)."
   },
   {
    "d": "TX-23",
@@ -3108,7 +3088,7 @@
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": "Returning former member; beat Julie Johnson in the primary."
+   "note": "Returning former member; beat Rep. Julie Johnson (D) in the primary."
   },
   {
    "d": "TX-35",
@@ -3318,7 +3298,7 @@
     }
    ],
    "ident": [],
-   "note": "Beat Bryan Steil, chairman of the House Administration Committee, which oversees House operations and federal elections."
+   "note": "Beat Bryan Steil (R), chairman of the House Administration Committee, which oversees House operations and federal elections."
   },
   {
    "d": "WI-3",
