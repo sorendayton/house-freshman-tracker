@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-12",
+  "status_as_of": "2026-11-13",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
@@ -9,6 +9,10 @@
   "row_count": 119
  },
  "changelog": [
+  {
+   "d": "2026-11-13",
+   "t": "CA-4 marked Called for Democrat Eric Jones over Democratic incumbent Mike Thompson on Decision Desk HQ's projection; AP has not called it. ME-2: the ranked-choice tabulation finished, Republican LePage 170,890 to Democrat Dunlap 165,432. CA-23 margin updated: Democrat Hodge trails Republican incumbent Obernolte by 3,348."
+  },
   {
    "d": "2026-11-12",
    "t": "Republican incumbent Murphy conceded NC-3 to Democrat Raymond Smith, who leads by 293; the row now shows Called while AP's call is pending. The SC-2 recount confirmed Republican incumbent Wilson, by about 2,840 votes, and Democrat Khalifa is off the list. Margins updated for NC-5 (Democrat Hubbard +335), NC-7 and NC-10; NC-10 is inside North Carolina's recount threshold, which an earlier note had wrong. ME-2 note updated: Democrat Dunlap conceded to Republican LePage, with the ranked-choice tabulation still to finish."
@@ -224,7 +228,7 @@
    },
    "n": "Eric Jones",
    "p": "D",
-   "st": "Uncalled — leads",
+   "st": "Called (DDHQ projection; AP pending)",
    "seat": "Challenging incumbent Mike Thompson (D) in top-two",
    "pred": "Mike Thompson (D)",
    "leg": "",
@@ -238,7 +242,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Thompson 52.1–47.9 (101,407–93,092, +8,315) per the California Secretary of State, 11/10 5:31 p.m., with all precincts partially reporting; mail ballots are still being counted and the state certifies by 12/11. Would be a D-on-D incumbent defeat. Not called."
+   "note": "Decision Desk HQ projected Jones the winner over Democratic incumbent Mike Thompson on 11/12. AP has not called it, and Thompson has not conceded. Jones led 111,069 to 101,859 (52.1% to 47.8%, +9,210) with an estimated 82.9% counted as of 6:51 p.m. PT on 11/12 (KQED, AP data). California certifies by 12/11."
   },
   {
    "d": "CA-6",
@@ -359,7 +363,7 @@
    "ident": [
     "Congressional Equality Caucus (reported: identifies as bisexual)"
    ],
-   "note": "Trails Obernolte 49.2–50.8 (101,691–105,095, −3,404) per the California Secretary of State, 11/10 5:31 p.m.; the gap narrowed from 5,434 on 11/08 as mail ballots were counted. Certification by 12/11. Obernolte is a listed RG2 member. Not called."
+   "note": "Trails Obernolte (R) 49.2–50.8 (104,230–107,578, −3,348) with all precincts reporting and mail ballots still being counted (Poliwave, from Secretary of State data, 11/13). Poliwave has made its own call for Obernolte; AP has not called it. California certifies by 12/11. Obernolte is a listed RG2 member."
   },
   {
    "d": "CA-26",
@@ -1375,7 +1379,7 @@
     }
    ],
    "ident": [],
-   "note": "Dunlap (D) has conceded. LePage led the first-choice count 170,263 to 164,845 (49.9%), short of a majority, so state law requires a ranked-choice tabulation before certification; it was due to resume 11/12 (WMTW). Age 78."
+   "note": "The ranked-choice tabulation finished on 11/12: LePage 170,890 (50.81%), Dunlap (D) 165,432 (49.18%), a margin of 5,458 (Maine Secretary of State). Dunlap had already conceded. Results are unofficial until sent to the governor for certification, within 20 days of the election. Age 78."
   },
   {
    "d": "MD-5",
