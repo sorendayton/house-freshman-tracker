@@ -1,14 +1,26 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-13",
+  "status_as_of": "2026-11-16",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 119
+  "row_count": 118
  },
  "changelog": [
+  {
+   "d": "2026-11-16",
+   "t": "Weekly caucus update (all Democrats). The New Democrat Coalition admitted 40 members-elect on 11/11, and all 40 move from High to Confirmed; Smith (NC-3) and Allred (TX-33), predicted High, were not in the class. The Progressive Caucus named five new members, now Confirmed: Avila Chevalier, Biss, Brooks, Forstag and García. Poindexter (OH-7) drops to Low for the Progressive Caucus after the CPC PAC and Blue Dog PAC withdrew their endorsements pending a DCCC-commissioned investigation. CAPAC's 11/13 welcome release added to its five confirmed rows. García (IL-4) adds a Labor Caucus tag. Caucus sizes and new leaders added to the method section."
+  },
+  {
+   "d": "2026-11-16",
+   "t": "Democrat Hardy conceded NC-7 to Republican incumbent Rouzer, 158,391 to 160,702, and will not seek a recount; she is off the list. Democrat Bell's NC-10 recount runs this week, with Bell 2,509 behind Republican incumbent Harrigan after the canvass. Margins and canvass dates updated for NC-5 (Democrat Hubbard +337), NC-3, MN-1 and CA-23. The CO-4 note adds AP's final count."
+  },
+  {
+   "d": "2026-11-14",
+   "t": "AP called two races on 11/13, and both incumbents conceded: Democrat Eric Jones over Democratic incumbent Mike Thompson in CA-4, and Democrat Eileen Laubacher over Republican incumbent Lauren Boebert in CO-4. ME-2 note records AP's 11/12 call for Republican LePage. Democrat Ashley Bell requested a recount in NC-10. NC-5 canvasses trimmed Democrat Hubbard's lead slightly; Republican Foxx has not decided on a recount."
+  },
   {
    "d": "2026-11-13",
    "t": "CA-4 marked Called for Democrat Eric Jones over Democratic incumbent Mike Thompson on Decision Desk HQ's projection; AP has not called it. ME-2: the ranked-choice tabulation finished, Republican LePage 170,890 to Democrat Dunlap 165,432. CA-23 margin updated: Democrat Hodge trails Republican incumbent Obernolte by 3,348."
@@ -111,12 +123,13 @@
      "c": "CAPAC",
      "lvl": "C",
      "was": "I",
-     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04). CAPAC welcomed him as a new member on 11/13 (capac.house.gov, \"CAPAC Welcomes New AAPI Members of Congress\")."
     },
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -170,8 +183,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -228,7 +242,7 @@
    },
    "n": "Eric Jones",
    "p": "D",
-   "st": "Called (DDHQ projection; AP pending)",
+   "st": "Called",
    "seat": "Challenging incumbent Mike Thompson (D) in top-two",
    "pred": "Mike Thompson (D)",
    "leg": "",
@@ -242,7 +256,7 @@
     }
    ],
    "ident": [],
-   "note": "Decision Desk HQ projected Jones the winner over Democratic incumbent Mike Thompson on 11/12. AP has not called it, and Thompson has not conceded. Jones led 111,069 to 101,859 (52.1% to 47.8%, +9,210) with an estimated 82.9% counted as of 6:51 p.m. PT on 11/12 (KQED, AP data). California certifies by 12/11."
+   "note": "AP called it for Jones at 5:25 p.m. PT on 11/13 with about 95% counted; Democratic incumbent Mike Thompson conceded. Jones led 130,246 to 117,817 (52.5% to 47.5%, +12,429) as of 5 p.m. that day (Davis Enterprise). California certifies by 12/11."
   },
   {
    "d": "CA-6",
@@ -265,12 +279,13 @@
      "c": "CAPAC",
      "lvl": "C",
      "was": "I",
-     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04). CAPAC welcomed him as a new member on 11/13 (capac.house.gov, \"CAPAC Welcomes New AAPI Members of Congress\")."
     },
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -363,7 +378,7 @@
    "ident": [
     "Congressional Equality Caucus (reported: identifies as bisexual)"
    ],
-   "note": "Trails Obernolte (R) 49.2–50.8 (104,230–107,578, −3,348) with all precincts reporting and mail ballots still being counted (Poliwave, from Secretary of State data, 11/13). Poliwave has made its own call for Obernolte; AP has not called it. California certifies by 12/11. Obernolte is a listed RG2 member."
+   "note": "Trails Obernolte (R) 105,541 to 109,037 (49.2% to 50.8%, −3,496) with all 1,324 precincts reporting and mail ballots still being counted (Poliwave, from Secretary of State data, 11/14). Poliwave has made its own call for Obernolte; AP has not called it. California certifies by 12/11. Obernolte is a listed RG2 member."
   },
   {
    "d": "CA-26",
@@ -384,8 +399,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -462,8 +478,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -507,7 +524,7 @@
    },
    "n": "Eileen Laubacher",
    "p": "D",
-   "st": "Called (CNN projection; AP pending)",
+   "st": "Called",
    "seat": "Challenging incumbent Lauren Boebert (R)",
    "pred": "Lauren Boebert (R)",
    "leg": "",
@@ -528,7 +545,7 @@
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "CNN projected Laubacher the winner on 11/09; AP and NBC have not called it. She leads Boebert by 3,352 votes with about 98.1% counted (AP estimate, 11/09); counties upload results through 11/13, and the lead is outside Colorado's automatic-recount range. Laubacher has declared victory. Boebert's campaign had alleged \"unusual voting patterns\" (Denver Gazette, 11/06)."
+   "note": "AP called it for Laubacher on 11/13, four days after CNN's projection, with 99% of the expected vote counted: Laubacher 48.8%, Republican incumbent Lauren Boebert 47.9%, a margin of about 3,400 votes, outside Colorado's automatic-recount range (ABC News; Deseret News). Boebert said on X that she had called Laubacher to congratulate her. State certification pending."
   },
   {
    "d": "CO-5",
@@ -547,8 +564,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -573,8 +591,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -599,8 +618,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -764,12 +784,13 @@
      "c": "CAPAC",
      "lvl": "C",
      "was": "I",
-     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04). CAPAC welcomed her as a new member on 11/13 (capac.house.gov, \"CAPAC Welcomes New AAPI Members of Congress\")."
     },
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -950,7 +971,7 @@
      "c": "CAPAC",
      "lvl": "C",
      "was": "I",
-     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04). CAPAC welcomed her as a new member on 11/13 (capac.house.gov, \"CAPAC Welcomes New AAPI Members of Congress\")."
     }
    ],
    "ident": [],
@@ -973,8 +994,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -999,8 +1021,14 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "CPC PAC endorsed (05/12); successor to a CPC member"
+     "lvl": "C",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed (05/12); successor to a CPC member",
+     "was": "H"
+    },
+    {
+     "c": "Congressional Labor Caucus",
+     "lvl": "M",
+     "why": "Reported as planning to join, along with the Progressive Caucus (Chicago Sun-Times, 11/09)."
     }
    ],
    "ident": [
@@ -1058,8 +1086,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed; prior NDC leadership"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed; prior NDC leadership",
+     "was": "H"
     },
     {
      "c": "Problem Solvers Caucus",
@@ -1087,8 +1116,9 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "CPC PAC endorsed"
+     "lvl": "C",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1113,8 +1143,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1139,8 +1170,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1165,8 +1197,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1191,8 +1224,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1275,8 +1309,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -1379,7 +1414,7 @@
     }
    ],
    "ident": [],
-   "note": "The ranked-choice tabulation finished on 11/12: LePage 170,890 (50.81%), Dunlap (D) 165,432 (49.18%), a margin of 5,458 (Maine Secretary of State). Dunlap had already conceded. Results are unofficial until sent to the governor for certification, within 20 days of the election. Age 78."
+   "note": "AP called it for LePage on 11/12, after the ranked-choice tabulation finished: LePage 170,890 (50.81%), Dunlap (D) 165,432 (49.18%), a margin of 5,458 (Maine Secretary of State; AP call as reported by the New York Times). Dunlap had already conceded. Results are unofficial until sent to the governor for certification, within 20 days of the election. Age 78."
   },
   {
    "d": "MD-5",
@@ -1398,8 +1433,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1426,7 +1462,7 @@
      "c": "CAPAC",
      "lvl": "C",
      "was": "I",
-     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04)."
+     "why": "Named by CAPAC as an incoming member \"poised to join\" (CAPAC release, 2026-11-04). CAPAC welcomed him as a new member on 11/13 (capac.house.gov, \"CAPAC Welcomes New AAPI Members of Congress\")."
     },
     {
      "c": "New Democrat Coalition",
@@ -1456,8 +1492,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1506,8 +1543,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1532,8 +1570,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1588,8 +1627,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -1598,7 +1638,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Finstad by 321 votes (163,054–162,733; under 0.1 pt), matching AP and the Secretary of State with all precincts reporting (KTTC, 11/06). The State Canvassing Board certifies 11/19; Finstad has said he will request a recount, which can begin only after certification. Johnson has declared victory."
+   "note": "Leads Finstad (R) by 321 votes (163,054–162,733; under 0.1%). Finstad has confirmed he will request a recount, which he must file within 48 hours after the State Canvassing Board certifies on 11/19; a margin under 0.25% qualifies for a publicly funded recount (Yahoo News). Johnson has declared victory. Not called."
   },
   {
    "d": "MN-2",
@@ -1646,8 +1686,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1711,8 +1752,9 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "CPC PAC endorsed (02/26); a dual Blue Dog and CPC endorsement"
+     "lvl": "C",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed (02/26); a dual Blue Dog and CPC endorsement",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1735,8 +1777,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1763,8 +1806,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1789,8 +1833,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1837,8 +1882,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1968,8 +2014,9 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "DSA member; Justice Democrats endorsed"
+     "lvl": "C",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: DSA member; Justice Democrats endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -1994,8 +2041,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -2054,14 +2102,14 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "why": "NewDem Action Fund endorsed Not in the coalition's 11/11 class of 40 (his race had not been called by AP)."
     }
    ],
    "ident": [
     "Congressional Black Caucus",
     "Veterans caucuses"
    ],
-   "note": "Murphy (R) conceded on 11/11 and congratulated \"Representative-Elect Raymond Smith\"; his statement did not mention a recount (WITN; WRAL). Smith leads by 293 votes, 118,488 to 118,195, per the State Board after provisional ballots. AP has not called it. Counties canvass 11/13, recount requests are due by noon 11/17, and the state certifies 11/24."
+   "note": "Murphy (R) conceded on 11/11 and congratulated \"Representative-Elect Raymond Smith\"; his statement did not mention a recount (WITN; WRAL; Public Radio East). Smith leads by 293 votes, 118,488 to 118,195, per the State Board after provisional ballots. AP has not called it. The county canvass was completed 11/13; the recount-request window closes 11/17, and the state certifies 11/24."
   },
   {
    "d": "NC-5",
@@ -2089,7 +2137,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Foxx (R) by 335 votes after provisional and cured ballots, including Rockingham County's (Yahoo News, 11/11). Military and overseas ballots count if received by 5 p.m. 11/12; counties canvass 11/13. Foxx is expected to request a recount, which the margin allows. Not called."
+   "note": "Leads Foxx (R) by 337 votes after the 11/13 county canvasses; a few counties had not yet posted final reports (News Topic). Foxx has not said whether she will request a recount; the deadline is noon 11/17, and the state certifies 11/24 (WXII). Not called."
   },
   {
    "d": "NC-6",
@@ -2121,36 +2169,6 @@
     "Congressional Black Caucus"
    ],
    "note": ""
-  },
-  {
-   "d": "NC-7",
-   "pvi": "R+7",
-   "race": "North_Carolina's_7th_Congressional_District_election,_2026",
-   "bp": "Kimberly_Hardy",
-   "wp": null,
-   "res": {
-    "label": "NC State Board of Elections",
-    "url": "https://er.ncsbe.gov/?election_dt=11/03/2026&county_id=0&office=FED&contest=0"
-   },
-   "n": "Kim Hardy",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent David Rouzer (R)",
-   "pred": "David Rouzer (R)",
-   "leg": "",
-   "comm": "",
-   "other": "Social-work professor (Fayetteville State)",
-   "cau": [
-    {
-     "c": "Congressional Black Caucus",
-     "lvl": "H",
-     "why": "CBC-eligible"
-    }
-   ],
-   "ident": [
-    "Congressional Black Caucus"
-   ],
-   "note": "Trails Rouzer (R) by 2,270 votes, 158,431 to 160,701 (0.70 points), per Ballotpedia, 11/12. Inside North Carolina's 1% recount threshold; counties canvass 11/13. Likely loss."
   },
   {
    "d": "NC-9",
@@ -2198,7 +2216,7 @@
    "other": "Physician assistant; educator",
    "cau": [],
    "ident": [],
-   "note": "Trails Harrigan (R) by 2,485 votes, 144,109 to 146,594 (0.84 points of the total), per Ballotpedia, 11/12. That is inside North Carolina's 1% recount threshold; an earlier note here said outside. Counties canvass 11/13. Likely loss."
+   "note": "Trails Harrigan (R) 144,081 to 146,590 (−2,509, 0.84%) after the 11/13 county canvass. Bell requested a recount that day; the machine recount runs the week of 11/16 and should finish by about 11/23, and the State Board meets 11/24 to certify (Yahoo News; WXII). Likely loss."
   },
   {
    "d": "NC-11",
@@ -2217,8 +2235,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -2302,16 +2321,16 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "L",
-     "why": "Conflicting signals: the Denver Gazette (11/05) lists him, under its Blue Dog heading, among candidates \"endorsed by the caucus\" who are set to join, but he is absent from the Blue Dog PAC's own list of backed winners. Left at Low until the caucus or the member confirms."
+     "why": "The Blue Dog PAC withdrew its endorsement pending the same DCCC-commissioned investigation, and he was not invited to the coalition's orientation (CNN via Yahoo News, 11/13). Earlier, the Denver Gazette had listed him under its Blue Dog heading."
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "CPC PAC endorsed (04/28)"
+     "lvl": "L",
+     "why": "The CPC PAC withdrew its endorsement pending an investigation commissioned by the DCCC, and he was not invited to the caucus's new-member orientation (CNN via Yahoo News, 11/13)."
     }
    ],
    "ident": [],
-   "note": "Endorsed by the CPC PAC; his Blue Dog status is disputed (see caucus basis)."
+   "note": "Both the CPC PAC and the Blue Dog PAC withdrew their endorsements pending an investigation, commissioned by the DCCC from an independent firm, into an aide's complaint about comments he made during the campaign. His campaign says he meant the comment as a compliment and regrets that it made her uncomfortable (CNN via Yahoo News, 11/13)."
   },
   {
    "d": "OH-10",
@@ -2330,8 +2349,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -2411,8 +2431,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Problem Solvers Caucus",
@@ -2473,8 +2494,9 @@
     },
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "CPC PAC endorsed (12/18/2025); a dual Blue Dog and CPC endorsement"
+     "lvl": "C",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed (12/18/2025); a dual Blue Dog and CPC endorsement",
+     "was": "H"
     },
     {
      "c": "Congressional Labor Caucus",
@@ -2502,8 +2524,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -2526,8 +2549,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -2550,8 +2574,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -2871,8 +2896,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -3008,7 +3034,7 @@
     {
      "c": "Congressional Progressive Caucus",
      "lvl": "H",
-     "why": "CPC PAC endorsed (10/16)"
+     "why": "CPC PAC endorsed (10/16); appeared with Progressive Caucus leaders at the caucus's 11/08 press conference introducing new members (San Antonio Report). Not yet named by the caucus as a member."
     }
    ],
    "ident": [
@@ -3086,7 +3112,7 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "H",
-     "why": "Prior NDC member"
+     "why": "Prior NDC member Not in the coalition's 11/11 class of 40 (Allred is a former member)."
     }
    ],
    "ident": [
@@ -3111,8 +3137,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -3172,8 +3199,9 @@
     },
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed; prior member"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed; prior member",
+     "was": "H"
     },
     {
      "c": "Problem Solvers Caucus",
@@ -3201,8 +3229,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -3227,8 +3256,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed; prior member"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed; prior member",
+     "was": "H"
     },
     {
      "c": "Problem Solvers Caucus",
@@ -3292,8 +3322,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
@@ -3321,8 +3352,9 @@
    "cau": [
     {
      "c": "New Democrat Coalition",
-     "lvl": "H",
-     "why": "NewDem Action Fund endorsed"
+     "lvl": "C",
+     "why": "Named among the 40 members-elect admitted to the coalition on 11/11 (New Democrat Coalition release, newdemocratcoalition.house.gov). Earlier basis: NewDem Action Fund endorsed",
+     "was": "H"
     },
     {
      "c": "Blue Dog Coalition",
