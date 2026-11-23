@@ -11,6 +11,10 @@
  "changelog": [
   {
    "d": "2026-11-23",
+   "t": "Correction to today's caucus update. Blue Dog Action's 11/17 \"full class\" list now counts as confirmation, so all 14 freshmen on it move from High to Confirmed for the Blue Dog Coalition: Ager, Barringer, Berman, Brooks, Cooke, Dembo, Forstag, Garcia, Johnson, Lacore, Laubacher, Mendoza, Mullock and Pulido."
+  },
+  {
+   "d": "2026-11-23",
    "t": "Weekly caucus update. The Progressive Caucus welcomed Democrat Valdez (NY-7) on X on 11/16, so her tag moves from High to Confirmed. Blue Dog Action, the coalition's political arm, named a class of 14 freshmen on 11/17. All 14 were already High and stay High, because the list does not come from the House caucus. Democrat Brooks (PA-7): his spokesperson says he will join the Blue Dogs, the Progressive Caucus and the Labor Caucus. Democrat Rabb (PA-3) was one of seven freshmen to vote against Jeffries's Speaker nomination in the caucus vote. Republican Ben Cline (VA-6) was elected Republican Study Committee chair for the 120th Congress on 11/18."
   },
   {
@@ -197,8 +201,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)",
+     "was": "H"
     }
    ],
    "ident": [
@@ -511,8 +516,9 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     },
     {
      "c": "New Democrat Coalition",
@@ -1293,8 +1299,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04); PAC endorsement page for Dembo"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04); PAC endorsement page for Dembo",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1611,8 +1618,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -1720,8 +1728,9 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)",
+     "was": "H"
     },
     {
      "c": "Congressional Labor Caucus",
@@ -1836,8 +1845,9 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -2198,8 +2208,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -2222,8 +2233,9 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -2446,8 +2458,9 @@
    "cau": [
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "His spokesperson told The Center Square (11/18) he will join. Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "His spokesperson told The Center Square (11/18) he will join. Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     },
     {
      "c": "Congressional Progressive Caucus",
@@ -2537,8 +2550,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -2859,8 +2873,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -3100,8 +3115,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -3285,8 +3301,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC endorsed",
+     "was": "H"
     }
    ],
    "ident": [],
@@ -3315,8 +3332,9 @@
     },
     {
      "c": "Blue Dog Coalition",
-     "lvl": "H",
-     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "lvl": "C",
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). Blue Dog Action is the coalition's political arm. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)",
+     "was": "H"
     }
    ],
    "ident": [],
