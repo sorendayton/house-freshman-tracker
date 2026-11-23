@@ -1,14 +1,22 @@
 {
  "meta": {
   "title": "120th House Freshman Tracker",
-  "status_as_of": "2026-11-16",
+  "status_as_of": "2026-11-23",
   "maintainer": "Soren Dayton, Foundation for American Innovation",
   "contact": "soren@thefai.org",
   "url": "https://sorendayton.github.io/house-freshman-tracker/",
   "disclaimer": "Evolving work product built from open-source research; not validated against primary records. Caucus memberships are predictions.",
-  "row_count": 118
+  "row_count": 116
  },
  "changelog": [
+  {
+   "d": "2026-11-23",
+   "t": "Weekly caucus update. The Progressive Caucus welcomed Democrat Valdez (NY-7) on X on 11/16, so her tag moves from High to Confirmed. Blue Dog Action, the coalition's political arm, named a class of 14 freshmen on 11/17. All 14 were already High and stay High, because the list does not come from the House caucus. Democrat Brooks (PA-7): his spokesperson says he will join the Blue Dogs, the Progressive Caucus and the Labor Caucus. Democrat Rabb (PA-3) was one of seven freshmen to vote against Jeffries's Speaker nomination in the caucus vote. Republican Ben Cline (VA-6) was elected Republican Study Committee chair for the 120th Congress on 11/18."
+  },
+  {
+   "d": "2026-11-23",
+   "t": "AP called NC-5 for Democrat Hubbard on 11/22 after a recount; Republican incumbent Foxx conceded. Democrat Bell (NC-10) and Democrat Hodge (CA-23) are off the list: the NC-10 recount left Republican incumbent Harrigan 2,509 ahead, and AP called CA-23 for Republican incumbent Obernolte on 11/16. AP called NC-3 for Democrat Smith on 11/17. Republican DesJarlais conceded TN-4 to Democrat Broderick on 11/16; AP has not called it. MN-1 was certified with Democrat Johnson 324 ahead, and county recounts run November 30 to December 3. Four races remain open nationally: MN-1, TN-4 (AP call pending), and the LA-5 and LA-6 runoffs on December 12. Rows: 118 to 116."
+  },
   {
    "d": "2026-11-16",
    "t": "Weekly caucus update (all Democrats). The New Democrat Coalition admitted 40 members-elect on 11/11, and all 40 move from High to Confirmed; Smith (NC-3) and Allred (TX-33), predicted High, were not in the class. The Progressive Caucus named five new members, now Confirmed: Avila Chevalier, Biss, Brooks, Forstag and García. Poindexter (OH-7) drops to Low for the Progressive Caucus after the CPC PAC and Blue Dog PAC withdrew their endorsements pending a DCCC-commissioned investigation. CAPAC's 11/13 welcome release added to its five confirmed rows. García (IL-4) adds a Labor Caucus tag. Caucus sizes and new leaders added to the method section."
@@ -190,7 +198,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [
@@ -351,36 +359,6 @@
    "note": "Beat Assemblymember Jasmeet Bains (D) in the top-two primary. A progressive in a Central Valley swing seat."
   },
   {
-   "d": "CA-23",
-   "pvi": "R+9",
-   "race": "California's_23rd_Congressional_District_election,_2026",
-   "bp": "Tessa_Lynn_Hodge",
-   "wp": null,
-   "res": {
-    "label": "California Secretary of State",
-    "url": "https://electionresults.sos.ca.gov/returns/us-rep/district/23"
-   },
-   "n": "Tessa Lynn Hodge",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Jay Obernolte (R)",
-   "pred": "Jay Obernolte (R)",
-   "leg": "",
-   "comm": "",
-   "other": "Clinical social worker and mental-health provider; grew up in the district",
-   "cau": [
-    {
-     "c": "Congressional Progressive Caucus",
-     "lvl": "L",
-     "why": "Inference from platform (opposes the California City immigration-detention facility; path to citizenship); no CPC PAC or Justice Democrats endorsement found"
-    }
-   ],
-   "ident": [
-    "Congressional Equality Caucus (reported: identifies as bisexual)"
-   ],
-   "note": "Trails Obernolte (R) 105,541 to 109,037 (49.2% to 50.8%, −3,496) with all 1,324 precincts reporting and mail ballots still being counted (Poliwave, from Secretary of State data, 11/14). Poliwave has made its own call for Obernolte; AP has not called it. California certifies by 12/11. Obernolte is a listed RG2 member."
-  },
-  {
    "d": "CA-26",
    "pvi": "D+9",
    "race": "California's_26th_Congressional_District_election,_2026",
@@ -534,7 +512,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     },
     {
      "c": "New Democrat Coalition",
@@ -1316,7 +1294,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04); PAC endorsement page for Dembo"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04); PAC endorsement page for Dembo"
     }
    ],
    "ident": [],
@@ -1634,11 +1612,11 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
-   "note": "Leads Finstad (R) by 321 votes (163,054–162,733; under 0.1%). Finstad has confirmed he will request a recount, which he must file within 48 hours after the State Canvassing Board certifies on 11/19; a margin under 0.25% qualifies for a publicly funded recount (Yahoo News). Johnson has declared victory. Not called."
+   "note": "The State Canvassing Board certified results on 11/19 with Johnson ahead of Republican incumbent Brad Finstad by 324 votes (0.1%). Finstad requested the publicly funded recount the same day; county recounts begin between November 30 and December 3, and the board reconvenes December 8 at 2 p.m. (Minnesota Secretary of State; MPR News). Not called by AP."
   },
   {
    "d": "MN-2",
@@ -1743,7 +1721,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     },
     {
      "c": "Congressional Labor Caucus",
@@ -1859,7 +1837,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -1935,8 +1913,9 @@
    "cau": [
     {
      "c": "Congressional Progressive Caucus",
-     "lvl": "H",
-     "why": "DSA member; Justice Democrats endorsed"
+     "lvl": "C",
+     "why": "Welcomed by name in the caucus's own X post (@USProgressives, 11/16; text captured from search results). Earlier basis: DSA member; Justice Democrats endorsed",
+     "was": "H"
     }
    ],
    "ident": [
@@ -2092,7 +2071,7 @@
    },
    "n": "Raymond Smith Jr.",
    "p": "D",
-   "st": "Called (concession; AP pending)",
+   "st": "Called",
    "seat": "Challenging incumbent Greg Murphy (R)",
    "pred": "Greg Murphy (R)",
    "leg": "North Carolina House 2019–22 (Dist. 21)",
@@ -2102,14 +2081,14 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "H",
-     "why": "NewDem Action Fund endorsed Not in the coalition's 11/11 class of 40 (his race had not been called by AP)."
+     "why": "NewDem Action Fund endorsed. Not in the coalition's 11/11 class of 40 (his race had not been called by AP)."
     }
    ],
    "ident": [
     "Congressional Black Caucus",
     "Veterans caucuses"
    ],
-   "note": "Murphy (R) conceded on 11/11 and congratulated \"Representative-Elect Raymond Smith\"; his statement did not mention a recount (WITN; WRAL; Public Radio East). Smith leads by 293 votes, 118,488 to 118,195, per the State Board after provisional ballots. AP has not called it. The county canvass was completed 11/13; the recount-request window closes 11/17, and the state certifies 11/24."
+   "note": "AP called the race for Smith on 11/17 (AP via Yahoo News). Republican incumbent Greg Murphy had conceded on 11/11. Smith leads by 293 votes, 118,488 to 118,195, per the State Board (WRAL). State certification pending."
   },
   {
    "d": "NC-5",
@@ -2123,7 +2102,7 @@
    },
    "n": "Chuck Hubbard",
    "p": "D",
-   "st": "Uncalled — leads",
+   "st": "Called",
    "seat": "Challenging incumbent Virginia Foxx (R)",
    "pred": "Virginia Foxx (R)",
    "leg": "",
@@ -2137,7 +2116,7 @@
     }
    ],
    "ident": [],
-   "note": "Leads Foxx (R) by 337 votes after the 11/13 county canvasses; a few counties had not yet posted final reports (News Topic). Foxx has not said whether she will request a recount; the deadline is noon 11/17, and the state certifies 11/24 (WXII). Not called."
+   "note": "AP called the race for Hubbard on 11/22 after a machine recount that did not change the outcome; Republican incumbent Virginia Foxx conceded by phone and in a statement the same day (WRAL; ABC News). His lead was about 330 votes (331 before the recount, per WHKY on 11/19); no source yet gives a final post-recount total. State Board certification pending."
   },
   {
    "d": "NC-6",
@@ -2197,28 +2176,6 @@
    "note": "Beat Richard Hudson (R), chairman of the NRCC."
   },
   {
-   "d": "NC-10",
-   "pvi": "R+9",
-   "race": "North_Carolina's_10th_Congressional_District_election,_2026",
-   "bp": "Ashley_Bell_(North_Carolina)",
-   "wp": null,
-   "res": {
-    "label": "NC State Board of Elections",
-    "url": "https://er.ncsbe.gov/?election_dt=11/03/2026&county_id=0&office=FED&contest=0"
-   },
-   "n": "Ashley Bell",
-   "p": "D",
-   "st": "Uncalled — trails",
-   "seat": "Challenging incumbent Pat Harrigan (R)",
-   "pred": "Pat Harrigan (R)",
-   "leg": "",
-   "comm": "",
-   "other": "Physician assistant; educator",
-   "cau": [],
-   "ident": [],
-   "note": "Trails Harrigan (R) 144,081 to 146,590 (−2,509, 0.84%) after the 11/13 county canvass. Bell requested a recount that day; the machine recount runs the week of 11/16 and should finish by about 11/23, and the State Board meets 11/24 to certify (Yahoo News; WXII). Likely loss."
-  },
-  {
    "d": "NC-11",
    "pvi": "R+5",
    "race": "North_Carolina's_11th_Congressional_District_election,_2026",
@@ -2242,7 +2199,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [],
@@ -2266,7 +2223,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -2464,13 +2421,13 @@
     {
      "c": "Congressional Progressive Caucus",
      "lvl": "H",
-     "why": "DSA member; CPC PAC and Justice Democrats endorsed"
+     "why": "DSA member; CPC PAC and Justice Democrats endorsed. The Center Square (11/18) reports he will join, citing no source"
     }
    ],
    "ident": [
     "Congressional Black Caucus"
    ],
-   "note": ""
+   "note": "One of seven freshmen who voted no when the Democratic Caucus voted internally on 11/18 to nominate Hakeem Jeffries (D) for Speaker; Jeffries won 251 to 11 (Bloomberg Government)."
   },
   {
    "d": "PA-7",
@@ -2490,22 +2447,22 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "His spokesperson told The Center Square (11/18) he will join. Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     },
     {
      "c": "Congressional Progressive Caucus",
      "lvl": "C",
-     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed (12/18/2025); a dual Blue Dog and CPC endorsement",
+     "why": "Introduced as one of the \"new Progressive Caucus members\" in the caucus's own X post (@USProgressives, 11/13; text captured from search results). Earlier basis: CPC PAC endorsed (12/18/2025); a dual Blue Dog and CPC endorsement. His spokesperson also told The Center Square (11/18) he will join",
      "was": "H"
     },
     {
      "c": "Congressional Labor Caucus",
      "lvl": "H",
-     "why": "Union president"
+     "why": "His spokesperson told The Center Square (11/18) he will join. Earlier basis: union president"
     }
    ],
    "ident": [],
-   "note": "Endorsed by both the Blue Dog PAC and the CPC PAC; which caucus he joins is open."
+   "note": "His spokesperson says he will join the Blue Dog Coalition, the Progressive Caucus and the Labor Caucus (The Center Square, 11/18). He was endorsed by both the Blue Dog PAC and the CPC PAC, and both groups have now named him."
   },
   {
    "d": "PA-8",
@@ -2581,13 +2538,13 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [
     "Veterans caucuses"
    ],
-   "note": "Wikipedia marks her the winner; one tracker shows her ahead by 1.0 point, uncalled. A retired vice admiral, the highest-ranking military officer in the class."
+   "note": "AP called the race on 11/6 at 6:51 p.m. ET; Republican nominee Honeycutt had called Lacore to concede (WCIV ABC News 4). A retired vice admiral, the highest-ranking military officer in the class."
   },
   {
    "d": "SC-5",
@@ -2671,7 +2628,7 @@
     }
    ],
    "ident": [],
-   "note": "Wikipedia marks her the winner over Republican incumbent Scott DesJarlais, and local outlets (Tennessee Lookout, Nashville Banner, WPLN) reported the win on 11/04. AP has not called it; Davidson County counts provisional ballots on 11/16. Age 34."
+   "note": "Republican incumbent Scott DesJarlais conceded on 11/16, in a statement and a Facebook post, after Davidson County counted provisional ballots; he said he finished \"a few hundred votes short\" (Tennessee Lookout). Broderick's margin is just under 300 votes (Local 3 News). AP had still not called the race as of 11/22 (Newsweek via Yahoo); state certification pending. Age 34."
   },
   {
    "d": "TN-5",
@@ -2903,7 +2860,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [
@@ -3034,7 +2991,7 @@
     {
      "c": "Congressional Progressive Caucus",
      "lvl": "H",
-     "why": "CPC PAC endorsed (10/16); appeared with Progressive Caucus leaders at the caucus's 11/08 press conference introducing new members (San Antonio Report). Not yet named by the caucus as a member."
+     "why": "CPC PAC endorsed (10/16); appeared with Progressive Caucus leaders at the caucus's 11/08 press conference introducing new members (San Antonio Report). Not yet named by the caucus as a member. Spectrum News (11/10) says she \"joined\" the caucus's freshman class, in the reporter's voice without a named source."
     }
    ],
    "ident": [
@@ -3112,7 +3069,7 @@
     {
      "c": "New Democrat Coalition",
      "lvl": "H",
-     "why": "Prior NDC member Not in the coalition's 11/11 class of 40 (Allred is a former member)."
+     "why": "Prior NDC member. Not in the coalition's 11/11 class of 40 (Allred is a former member)."
     }
    ],
    "ident": [
@@ -3144,7 +3101,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [
@@ -3329,7 +3286,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC endorsed"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC endorsed"
     }
    ],
    "ident": [],
@@ -3359,7 +3316,7 @@
     {
      "c": "Blue Dog Coalition",
      "lvl": "H",
-     "why": "Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
+     "why": "Named in Blue Dog Action's \"full class\" of 14 freshmen (Blue Dog Bark newsletter, 11/17). The list comes from the coalition's political arm, not the House caucus, so it is not treated as confirmation. Earlier basis: Blue Dog PAC lists as a Blue Dog-backed winner (\"22 Blue Dogs and Counting,\" 11/04)"
     }
    ],
    "ident": [],
